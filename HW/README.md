@@ -3,7 +3,7 @@ Analysis of windows event logs using pandas dataframe.
 
 
 
-Use CSV instead of XML if possible because it's better supported.  
+Use CSV instead of XML if possible.
 
 Initialize the library in python :   
 import pandas as pd
