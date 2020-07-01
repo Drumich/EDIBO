@@ -1,6 +1,8 @@
 Uzdevuma apraksts: 
 Analysis of windows event logs using pandas dataframe.  
 
+CSV is a simple file format used to store tabular data, such as a spreadsheet or database.   
+"comma-separated values"  
 
 If you can — work with CSV, it is more widely supported by various data analytical tools, but sometimes one cannot affect this option as in my scenario.  
 Still, provided XML Element class is really inconvenient for data queries.  
