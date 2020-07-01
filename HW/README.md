@@ -1,6 +1,6 @@
 Uzdevuma apraksts: 
+Analysis of windows event logs using pandas dataframe  
 
-Analysis of windows event logs using pandas dataframe
 
 [Where to find windows event logs](https://www.m-files.com/user-guide/latest/eng/faq_checking_windows_event_logs.html)  
 
