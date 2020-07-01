@@ -2,8 +2,9 @@ Uzdevuma apraksts:
 Analysis of windows event logs using pandas dataframe.  
 
 
-
-Use CSV instead of XML if possible.
+If you can — work with csv, it is more widely supported by various data analytical tools, but sometimes one cannot affect this option as in my scenario.  
+Still, provided XML Element class is really inconvenient for data queries.  
+On the other hand, such multivariate data as Windows Event Logs ideally fit pandas DataFrame structure, although pandas by default does not allow you to read XML file, especially corrupted one.  
 
 Initialize the library in python :   
 import pandas as pd
