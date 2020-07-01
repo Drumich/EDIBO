@@ -1,6 +1,9 @@
 Uzdevuma apraksts: 
 Analysis of windows event logs using pandas dataframe.  
 
+
+The Windows Event Viewer shows a log of application and system messages, including errors, information messages, and warnings. It’s a useful tool for troubleshooting all kinds of different Windows problems.  
+
 CSV is a simple file format used to store tabular data, such as a spreadsheet or database.   
 "comma-separated values"  
 
