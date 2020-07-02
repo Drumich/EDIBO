@@ -12,14 +12,13 @@ Izdomāju ieiet kaggle un nokačāt pāris datasets.
 [Practical Guide For Data Analysis Using Pandas](https://towardsdatascience.com/a-practical-guide-for-data-analysis-with-pandas-e24e467195a9)
 
 
-r = raw string (bez viņa nesanāca ielādēt csv =[  )  
 
 
 ``` 
 import numpy as np # algebra
 import pandas as pd # data processing
 
-df = pd.read_csv(r'C:\Users\37124\Documents\Python Scripts\r_dataisbeautiful_posts.csv')
+df = pd.read_csv(r'C:\Users\37124\Documents\Python Scripts\r_dataisbeautiful_posts.csv') # r = raw string (bez viņa nesanāca ielādēt csv)  
 ```   
 
 ```
