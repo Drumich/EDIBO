@@ -1,3 +1,13 @@
+data = open(r"C:\Users\37124\Documents\Python Scripts\oy.xml")  
+root = ET.parse(r'C:\Users\37124\Documents\Python Scripts\eyy.xml').getroot()   
+
+r = raw string    
+
+
+
+
+
+
 [Kaggle Datasets and stuff](https://www.kaggle.com/)
 
 [Pandas API](https://pandas.pydata.org/docs/reference/index.html#api)  
