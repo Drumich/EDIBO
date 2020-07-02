@@ -10,7 +10,7 @@ Homework:
 [Linux for windows](https://www.pcworld.com/article/2955460/dual-booting-linux-with-windows-what-you-need-to-know.html)
 
 
-pwd  - location  
-ls  - list(-l , | head , | tail )     
-cd  - /home/user/Desktop change directory(if you type just cd , then you return to /home/user)    
-mkdir abc - creates a new directory 
+pwd  : location  
+ls | head -3 | wc : list( -l [lines length] , | head , | tail , -3 , )     
+cd  : /home/user/Desktop change directory(if you type just cd , then you return to /home/user)    
+mkdir abc : creates a new directory 
