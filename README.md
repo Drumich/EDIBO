@@ -1,11 +1,11 @@
 # EDIBO
 EDIBO projekta elektroniskā klade
 
-Mans pirmais ieraksts
+Mans pirmais ieraksts   
 
-[Formatting and writing](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax)   
-[Linux Ubuntu math](https://vitux.com/how-to-do-basic-math-in-linux-command-line/)
-[JetBrains](https://www.jetbrains.com/)  
+[Formatting and writing](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax)       
+[Linux Ubuntu math](https://vitux.com/how-to-do-basic-math-in-linux-command-line/)  
+[JetBrains](https://www.jetbrains.com/)     
 Homework:  
 [Linux for windows](https://www.pcworld.com/article/2955460/dual-booting-linux-with-windows-what-you-need-to-know.html)   
 https://docs.microsoft.com/en-us/windows/wsl/install-win10  
