@@ -30,12 +30,12 @@ df.sample(10) # show 10 random rows
 ```
 df.info() #
 ```
-![desc](https://user-images.githubusercontent.com/58115541/86334826-9d892e80-bc45-11ea-9c4d-9dd47c19be33.png)    
+![info](https://user-images.githubusercontent.com/58115541/86334827-9e21c500-bc45-11ea-97b8-3971318a9c24.png)  
 
 ```
 df.describe() #   
 ```
-![info](https://user-images.githubusercontent.com/58115541/86334827-9e21c500-bc45-11ea-97b8-3971318a9c24.png)
 
+![desc](https://user-images.githubusercontent.com/58115541/86334826-9d892e80-bc45-11ea-9c4d-9dd47c19be33.png) 
 
 
