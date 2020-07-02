@@ -1,5 +1,4 @@
-Pietiks čakarēties ar event viewer logs , ~2 stundas un nekur neesmu ticis.  
-Izdomāju ieiet kaggle un nokačāt pāris datasets.  
+Nekas nesanāca ar event viewer logs , izdomāju ieiet kaggle un nokačāt reddit r/dataisbeautiful dataset.Vismaz kaut kas būs izdarīts.
 
 
 
