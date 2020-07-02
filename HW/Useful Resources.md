@@ -21,7 +21,7 @@ df = pd.read_csv(r'C:\Users\37124\Documents\Python Scripts\r_dataisbeautiful_pos
 ```   
 
 ```
-df.sample(10) # show 10 random rows
+df.sample(10) # Return a random sample of items from an axis of object.
 ```
 ![sample](https://user-images.githubusercontent.com/58115541/86334821-9cf09800-bc45-11ea-9934-63e0f747b391.png)
 
