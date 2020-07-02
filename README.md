@@ -22,7 +22,11 @@ b = 1234
 echo $a $b (var komatus,izsaukumu zīmes likt starp $a $b)  
 result = 'expr $a + $b´     
 echo $result    
-d = ('date`) console
+d = ('date`) console    
+`   
 
-`
+
+saves sum in a txt file
+echo $result EURO > a.txt
+
 
