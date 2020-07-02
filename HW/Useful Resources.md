@@ -1,13 +1,5 @@
 
 
-```import pandas as pd
-import xml.etree.ElementTree as ET
-data = open(r"C:\Users\37124\Documents\Python Scripts\oy.xml")  
-root = ET.parse(r'C:\Users\37124\Documents\Python Scripts\eyy.xml').getroot()  ```   
-
-r = raw string    
-
-
 
 
 
@@ -37,17 +29,8 @@ r = raw string
 
 
 
-
-
-
-This might not be the most efficient way to convert nested json records in a text file (delimited by line) to DataFrame object, but it kinda does the job.
- ```import pandas as pd
-import json
-from pandas.io.json import json_normalize
-
-with open('path_to_your_text_file.txt', 'rb') as f:
-    data = f.readlines()
-
-data = map(lambda x: eval(json_normalize(json.loads(x.rstrip())).to_json(orient="records")[1:-1]), data)
-e = pd.DataFrame(data)
-print e.head()```
+r = raw string
+ ``` import pandas as pd
+import xml.etree.ElementTree as ET
+data = open(r"C:\Users\37124\Documents\Python Scripts\oy.xml")  
+root = ET.parse(r'C:\Users\37124\Documents\Python Scripts\eyy.xml').getroot()
