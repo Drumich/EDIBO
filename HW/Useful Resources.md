@@ -1,5 +1,9 @@
+
+
+```import pandas as pd
+import xml.etree.ElementTree as ET
 data = open(r"C:\Users\37124\Documents\Python Scripts\oy.xml")  
-root = ET.parse(r'C:\Users\37124\Documents\Python Scripts\eyy.xml').getroot()   
+root = ET.parse(r'C:\Users\37124\Documents\Python Scripts\eyy.xml').getroot()  ```   
 
 r = raw string    
 
