@@ -12,5 +12,5 @@ Homework:
 
 pwd  - location  
 ls  - list   
-cd  - change directory  
+cd  - /home/user/Desktop change directory(if you type just cd , then you return to /home/user)    
 mkdir abc - creates a new directory 
