@@ -26,7 +26,7 @@ d = ('date`) console
 `   
 
 
-saves sum in a txt file 
+saves sum in a txt file     
 echo $result > a.txt
 
 
