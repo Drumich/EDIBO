@@ -16,5 +16,7 @@ pwd  : location
 ls | head -3 | wc : list( -l [ how many rows] , -c [ character count ]  | head , | tail , -3 , )     
 cd  : /home/user/Desktop change directory(if you type just cd , then you return to /home/user)    
 mkdir abc : creates a new directory   
-
-a = 123 , echo $a
+    
+a = 123     
+b = 1234     
+echo $a $b
