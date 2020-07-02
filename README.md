@@ -8,3 +8,9 @@ Mans pirmais ieraksts
 
 Homework:  
 [Linux for windows](https://www.pcworld.com/article/2955460/dual-booting-linux-with-windows-what-you-need-to-know.html)
+
+
+pwd  - location  
+ls  - list   
+cd  - change directory  
+mkdir abc - creates a new directory 
