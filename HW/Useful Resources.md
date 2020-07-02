@@ -3,7 +3,7 @@ Izdomāju ieiet kaggle un nokačāt pāris datasets.
 
 
 
-
+[Add images to Github readme](https://youtu.be/nvPOUdz5PL4)
 
 [Kaggle Datasets and stuff](https://www.kaggle.com/)
 
