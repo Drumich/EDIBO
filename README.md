@@ -19,7 +19,10 @@ mkdir abc : creates a new directory
     
 a = 123     
 b = 1234     
-echo $a $b (var komatus,izsaukumu zīmes likt starp $a $b)   
-d = (`date`) console
+echo $a $b (var komatus,izsaukumu zīmes likt starp $a $b)  
+result = 'expr $a + $b´
+echo $result
+d = ('date`) console
+
 `
 
