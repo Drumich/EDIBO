@@ -8,6 +8,7 @@ Mans pirmais ieraksts
 [JetBrains](https://www.jetbrains.com/)  
 Homework:  
 [Linux for windows](https://www.pcworld.com/article/2955460/dual-booting-linux-with-windows-what-you-need-to-know.html)
+https://docs.microsoft.com/en-us/windows/wsl/install-win10
 
 
 pwd  : location  
