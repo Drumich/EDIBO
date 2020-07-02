@@ -26,14 +26,17 @@ df.sample(10) # show 10 random rows
 ![sample](https://user-images.githubusercontent.com/58115541/86334821-9cf09800-bc45-11ea-9934-63e0f747b391.png)
 
 ```
-df.info() #
+df.info() # Print a concise summary of a DataFrame.  
 ```
 ![info](https://user-images.githubusercontent.com/58115541/86334827-9e21c500-bc45-11ea-97b8-3971318a9c24.png)  
 
 ```
-df.describe() #   
+df.describe() #  Generate descriptive statistics.  
 ```
 
-![desc](https://user-images.githubusercontent.com/58115541/86334826-9d892e80-bc45-11ea-9c4d-9dd47c19be33.png) 
+![desc](https://user-images.githubusercontent.com/58115541/86334826-9d892e80-bc45-11ea-9c4d-9dd47c19be33.png)   
 
-
+```
+df.count() # Count non-NA cells for each column or row.  
+```  
+![count](https://user-images.githubusercontent.com/58115541/86338263-04a8e200-bc4a-11ea-8fac-a90b83c6fb09.png)
