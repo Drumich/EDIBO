@@ -11,6 +11,6 @@ Homework:
 
 
 pwd  - location  
-ls  - list   
+ls  - list(-l , | head , | tail )     
 cd  - /home/user/Desktop change directory(if you type just cd , then you return to /home/user)    
 mkdir abc - creates a new directory 
