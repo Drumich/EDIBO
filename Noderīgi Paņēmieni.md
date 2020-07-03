@@ -4,6 +4,7 @@ ctrl + shift + t - new tab in terminal
 man command (manual/help how to use this command(q to exit))   
 command -key1 -key2 argument
 nano - text redactor    
+chmod 777 (give all permissions to a file)
 ls -lt ...c/l/a...(list/show directory/files sorted by date(t))          
 tab - autofill            
 sh - different shell (uses less resources(no colours and stuff..))      
@@ -33,5 +34,8 @@ cat ../ABC/abc2.txt - read this file (jābūt pareizajā direktorijā(mapē))
 
 adresses - absolute (/ - root directory), relative (. , .. , ~)   
 lshw - list everything in the computer (processor,drive,usb ports...)   
-whereis $PATH (wh)
+whereis $PATH (wh)      
+git clone https://github.com/Drumich/EDIBO  
+
+
 
