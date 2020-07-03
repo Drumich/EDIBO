@@ -1,136 +1,120 @@
     1  VirtualBox --startvm XP
     2  quartus
-    3  firefox
-    4  echo $0
-    5  nano
-    6  man echo
-    7  ls -lt
-    8  ls -t
-    9  ls -l
-   10  man ls
-   11  ls -cl
-   12  ls -c
-   13  ls -cl
-   14  ls -cla
-   15  cd\
-   16  nano
-   17  ls
-   18  ls -lt
-   19  nano
-   20  nano text.txt 
-   21  nano abc.txt
-   22  nano abc1.txt
-   23  ls
-   24  ls -t
-   25  ls -lt
-   26  ls -ltca
-   27  ls -lt
-   28  mkdir ABC
-   29  ls
-   30  cd ABC
-   31  ls
-   32  ls -t
-   33  cd
-   34  cd abc
-   35  cd ABC
-   36  ls -lta
-   37  pwd
-   38  cd .
-   39  pwd
-   40  cd /Desktop
-   41  cd
-   42  cd /Desktop
-   43  ls
-   44  cd Desktop
+    3  firefox &
+    4  history
+    5  clear
+    6  echo $
+    7  echo $ 
+    8  echo $USER
+    9  cd $HOME
+   10  pwd
+   11  cd $USER
+   12  cd
+   13  pwd
+   14  cd $HOME
+   15  cd $USER
+   16  pwd
+   17  cd /
+   18  pwd
+   19  cd $HOME
+   20  pwd
+   21  cd /
+   22  pwd
+   23  cd
+   24  pwd
+   25  echo $PS1
+   26  PS1=$
+   27  pwd
+   28  PS1= 
+   29  asd
+   30  clear
+   31  pwd
+   32  PS1="$HC$FYEL[ $FBLE${debian_chroot:+($debian_chroot)}\u$FYEL: $FBLE\w $FYEL]\\$ $RS"
+   33  dsad
+   34  clear
+   35  PS1= 
+   36  pwd
+   37  whereis pico
+   38  ls -l /usr/bin
+   39  ls -l /usr/bin -3
+   40  ls -l /usr/bin | -3
+   41  ls -l /usr/bin | head -3
+   42  ls -l /usr/bin | head -10
+   43  ls -l /usr/bin | wc -l
+   44  ls -l usr/bin/pico
    45  cd
-   46  cd ABC
-   47  cd Desktop
-   48  cd ../Desktop
-   49  cd ../Desktocpp
-   50  cp
-   51  cd
-   52  cd /Documents
-   53  cd Documents
-   54  cp ../abc.txt
-   55  cp ../abc.txt ../ABC/abc2.txt
-   56  ls -lta
-   57  cd
-   58  cd Documents
-   59  cat abc.txt
-   60  cat ../ABC/abc2.txt
-   61  cat --help
-   62  cd
-   63  cat ../ABC/abc2.txt
-   64  cd Documents
-   65  cat ../ABC/abc2.txt
-   66  adress
-   67  relativerelative
-   68  cd
-   69  relative
-   70  cd Documents
-   71  relative
-   72  cd ../Desktop
-   73  cd /Documents
-   74  cd ../Documents
-   75  cd..
-   76  cd ..
-   77  pwd
-   78  cd
-   79  pwd
-   80  cd /
-   81  pwd
-   82  cd
-   83  ls -lt
-   84  cd
-   85  hexdump -C abc.txt
-   86  hexdump -C abc1.txt
-   87  hexdump abc.txt
-   88  pwd
-   89  hexdump --help
-   90  hd
-   91  cd
-   92  pwd
-   93  df
-   94  lshw
-   95  xxd -b abc.txt
-   96  whereis ls
-   97  whereis --help
-   98  /Desktop/ls
-   99  ls
-  100  ls -l /bin/ls
-  101  ls -l /bin
-  102  ls
-  103  ls -l /bin/ls
-  104  cat /bin/ls
-  105  echo $PATH
-  106  pwd
-  107  nano first_script.sh
-  108  ls -lt
-  109  first_script.sh
-  110  ./first_script.sh
-  111  PATH=$PATH:./
-  112  echo $PATH
-  113  chmod 744 first_script.sh 
-  114  first_script.sh
-  115  first_script.sh 
-  116  ls
-  117  ls -t
-  118  ls -lt
-  119  cat test1.txt 
-  120  whereis first_script.sh
-  121  nano first_script.sh
-  122  cd
-  123  git clone https://github.com/Drumich/EDIBO
-  124  ls -lt
-  125  cd EDIBO
-  126  ls
-  127  ls -lt
-  128  pwd
-  129  nano git-upload
-  130  cd
-  131  ./git-upload
-  132  nano git-upload
-  133  ./git-upload
-  134  nano git-upload
-  135  ./git-upload
-  136  history > h3.txt
+   46  ls -l /etc/alternatives/pico
+   47  ls -l /usr/bin/pico
+   48  ls -l /etc/alternatives/pico
+   49  ls -l /bin/nano
+   50  vim
+   51  vim
+   52  vim 01.sh
+   53  ls -lt
+   54  vim
+   55  chmod 01.sh 740
+   56  chmod 01.sh 744
+   57  chmod /01.sh 744
+   58  chmod +x 01.sh
+   59  ls -lt
+   60  vim .
+   61  mc
+   62  pwd
+   63  ./ 01.sh
+   64  ./01.sh
+   65  ls
+   66  nano
+   67  ls -lt
+   68  ./ 01.txt
+   69  ./01.txt
+   70  chmod 777 /01.txt
+   71  chmod 777 /home/user/01.txt
+   72  ./01.txt
+   73  cat /01.txt
+   74  cat home/user/01.txt
+   75  vim 01.sh
+   76  ./01.txt
+   77  ./01.sh
+   78  vim 01.sh
+   79  ./01.sh
+   80  vim 01.sh
+   81  ./01.sh
+   82  vim 01.sh
+   83  ./01.sh
+   84  vim 01.sh
+   85  python
+   86  nano ayy.sh
+   87  vim 01.sh
+   88  ./01.sh
+   89  time ./01.sh
+   90  vim 01.sh
+   91  time ./01.sh
+   92  vim 01.sh
+   93  ./01.sh
+   94  vim 02.sh
+   95  ./02.sh
+   96  chmod +x /02.sh
+   97  chmod +x 02.sh
+   98  ./02.sh
+   99  for i in {1..5} do echo "GG" done; for i in {1..5} do echo "$GG" done
+  100  for i in {1..5} ; do echo "GG" ;done
+  101  for i in {1..5} ; do echo $i**3 ;done
+  102  for i in {1..5} ; do echo "$i**3" ;done
+  103  for i in {1..5} ; do echo "$i*3" ;done
+  104  for i in {1..5} ; do echo "$i^3" ;done
+  105  for i in {1..5} ; do echo `expr $i**3` ;done
+  106  for i in {1..5} ; do echo  $i*$i ;done
+  107  for i in {1..5} ; do echo  "$i*$i" ;done
+  108  for i in {1..5} ; do echo "$i**$i" ;done
+  109  for i in {1..5} ; do echo "$i" ;done
+  110  sqrt 5
+  111  for i in {1..5} ; do echo "$i $((i*i))" ;done
+  112  for i in {1..5} ; do echo $i((i*i)) ;done
+  113  for i in {1..5} ; do echo "$i((i*i))" ;done
+  114  for i in {1..5} ; do echo "$i$((i*i))" ;done
+  115  for i in {1..5} ; do echo "$i $((i*i))" ;done
+  116  for i in {1..5} ; do echo "$i ((i*i))" ;done
+  117  for i in {1..5} ; do echo "$i $((i*i))" ;done
+  118  for i in {1..5} ; do echo $i $((i*i)) ;done
+  119  for i in {1..20} ; do echo $i $((i*i)) ;done
+  120  history > h3.txt
