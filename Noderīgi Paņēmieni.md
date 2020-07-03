@@ -1,5 +1,6 @@
-./ (execute a file/script)
-echo $0 - ar kādu termināli strādā  
+./ filename (execute a file/script)   
+time ./ filename (shows how long you script loads)    
+echo $0 - ar kādu termināli strādā    
 [PS1=$ (customise bash prompt)](https://help.ubuntu.com/community/CustomizingBashPrompt)    
 ctrl + alt + t - open terminal      
 ctrl + shift + t - new tab in terminal  
