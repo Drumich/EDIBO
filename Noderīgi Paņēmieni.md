@@ -12,7 +12,9 @@ hexdump -C(or -c) abc.txt  (hex code or ASCII symbol)
 [Hexdump](http://manpages.ubuntu.com/manpages/xenial/en/man1/hexdump.1.html)  
 [Hexdump / xxd](http://manpages.ubuntu.com/manpages/trusty/man1/xxd.1.html)
 xxd - binary code   
-1 byte = 8 bits (0/1 - 2 states) => unique codes 2^8 = 256    
+?1 byte = 8 bits (0/1 - 2 states) => unique codes 2^8 = 256?    
+[ASCII table](http://www.asciitable.com/)   
+
 
 ![Screenshot from 2020-07-03 14-35-24](https://user-images.githubusercontent.com/58115541/86465573-95f78180-bd3a-11ea-83ec-36650731cc8d.png)    
 drwxrwxr....        
