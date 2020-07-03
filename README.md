@@ -27,6 +27,7 @@ d = ('date`) console
 
 
 saves sum in a txt file     
-echo $result > a.txt
+echo $result > a.txt    
+Terminālē strādājām ar failu sistēmu
 
 
