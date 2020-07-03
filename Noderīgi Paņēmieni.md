@@ -1,13 +1,12 @@
+./ (execute a file/script)
 echo $0 - ar kādu termināli strādā  
 [PS1=$ (customise bash prompt)](https://help.ubuntu.com/community/CustomizingBashPrompt)    
 ctrl + alt + t - open terminal      
 ctrl + shift + t - new tab in terminal  
-man command (manual/help how to use this command(q to exit))   
-command -key1 -key2 argument
 nano - text redactor    
-chmod 777 (give all permissions to a file)
+chmod 777 filename (give all permissions to a file)  (chmod +x filename : makes it executable)      
 ls -lt ...c/l/a...(list/show directory/files sorted by date(t))          
-tab - autofill            
+TAB - autofill            
 sh - different shell (uses less resources(no colours and stuff..))      
 absolūtā adrese vienmēr ir (/ aka (root)  
 hexdump -C(or -c) abc.txt  (hex code or ASCII symbol)   
@@ -22,7 +21,7 @@ xxd - binary code
 drwxrwxr....        
 d - directory(folders)
 rw - read write     
-x - execute     
+x - execute(to make things executable : chmod +x filename)      
 1,2,3,4,5 - apakšdirektorijas faili(more stuff in there)    
 
 ![Screenshot from 2020-07-03 14-43-50](https://user-images.githubusercontent.com/58115541/86466089-b1af5780-bd3b-11ea-8f33-27f9b5c111c8.png)        
