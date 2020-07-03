@@ -1,0 +1,136 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  firefox
+    4  echo $0
+    5  nano
+    6  man echo
+    7  ls -lt
+    8  ls -t
+    9  ls -l
+   10  man ls
+   11  ls -cl
+   12  ls -c
+   13  ls -cl
+   14  ls -cla
+   15  cd\
+   16  nano
+   17  ls
+   18  ls -lt
+   19  nano
+   20  nano text.txt 
+   21  nano abc.txt
+   22  nano abc1.txt
+   23  ls
+   24  ls -t
+   25  ls -lt
+   26  ls -ltca
+   27  ls -lt
+   28  mkdir ABC
+   29  ls
+   30  cd ABC
+   31  ls
+   32  ls -t
+   33  cd
+   34  cd abc
+   35  cd ABC
+   36  ls -lta
+   37  pwd
+   38  cd .
+   39  pwd
+   40  cd /Desktop
+   41  cd
+   42  cd /Desktop
+   43  ls
+   44  cd Desktop
+   45  cd
+   46  cd ABC
+   47  cd Desktop
+   48  cd ../Desktop
+   49  cd ../Desktocpp
+   50  cp
+   51  cd
+   52  cd /Documents
+   53  cd Documents
+   54  cp ../abc.txt
+   55  cp ../abc.txt ../ABC/abc2.txt
+   56  ls -lta
+   57  cd
+   58  cd Documents
+   59  cat abc.txt
+   60  cat ../ABC/abc2.txt
+   61  cat --help
+   62  cd
+   63  cat ../ABC/abc2.txt
+   64  cd Documents
+   65  cat ../ABC/abc2.txt
+   66  adress
+   67  relativerelative
+   68  cd
+   69  relative
+   70  cd Documents
+   71  relative
+   72  cd ../Desktop
+   73  cd /Documents
+   74  cd ../Documents
+   75  cd..
+   76  cd ..
+   77  pwd
+   78  cd
+   79  pwd
+   80  cd /
+   81  pwd
+   82  cd
+   83  ls -lt
+   84  cd
+   85  hexdump -C abc.txt
+   86  hexdump -C abc1.txt
+   87  hexdump abc.txt
+   88  pwd
+   89  hexdump --help
+   90  hd
+   91  cd
+   92  pwd
+   93  df
+   94  lshw
+   95  xxd -b abc.txt
+   96  whereis ls
+   97  whereis --help
+   98  /Desktop/ls
+   99  ls
+  100  ls -l /bin/ls
+  101  ls -l /bin
+  102  ls
+  103  ls -l /bin/ls
+  104  cat /bin/ls
+  105  echo $PATH
+  106  pwd
+  107  nano first_script.sh
+  108  ls -lt
+  109  first_script.sh
+  110  ./first_script.sh
+  111  PATH=$PATH:./
+  112  echo $PATH
+  113  chmod 744 first_script.sh 
+  114  first_script.sh
+  115  first_script.sh 
+  116  ls
+  117  ls -t
+  118  ls -lt
+  119  cat test1.txt 
+  120  whereis first_script.sh
+  121  nano first_script.sh
+  122  cd
+  123  git clone https://github.com/Drumich/EDIBO
+  124  ls -lt
+  125  cd EDIBO
+  126  ls
+  127  ls -lt
+  128  pwd
+  129  nano git-upload
+  130  cd
+  131  ./git-upload
+  132  nano git-upload
+  133  ./git-upload
+  134  nano git-upload
+  135  ./git-upload
+  136  history > h3.txt
