@@ -1,0 +1,7 @@
+echo $0 - ar kādu termināli strādā  
+ctrl + alt + t - open terminal      
+ctrl + shift + t - new tab in terminal  
+man command (manual/help how to use this command(q to exit))   
+command -key1 -key2 argument
+nano - text redactor    
+ls -cla...  
