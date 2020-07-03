@@ -36,7 +36,9 @@ cat ../ABC/abc2.txt - read this file (jābūt pareizajā direktorijā(mapē))
 adresses - absolute (/ - root directory), relative (. , .. , ~)   
 lshw - list everything in the computer (processor,drive,usb ports...)   
 whereis $PATH (wh)      
-git clone https://github.com/Drumich/EDIBO  
+git clone https://github.com/Drumich/EDIBO         
 
-
+```
+for i in {1..5} ; do echo $i $((i*i)) ; done
+```
 
