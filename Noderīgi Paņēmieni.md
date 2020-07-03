@@ -16,8 +16,13 @@ x - execute
 1,2,3,4,5 - apakšdirektorijas faili(more stuff in there)    
 
 ![Screenshot from 2020-07-03 14-43-50](https://user-images.githubusercontent.com/58115541/86466089-b1af5780-bd3b-11ea-8f33-27f9b5c111c8.png)        
+cd - aiziet home/user (or default directory)    
 cd . - aiziet uz to pašu vietu kur esi tagad        
-cd .. - aiziet no jeb kuras citas direktorijas tur kur vajag (piem cd ../Desktop)   |   
+cd .. - aiziet no jeb kuras citas direktorijas tur kur vajag (piem cd ../Desktop or cd ../Documents)   |   
 cp ../abc.txt ../ABC/abc2.txt (kopē abc.txt un ieliek viņu /ABC/abc2.txt)   
+cat ../ABC/abc2.txt - read this file (jābūt pareizajā direktorijā(mapē))         
+
+
+adresses - absolute (/ - root directory), relative (. , .. , ~)
 
 
