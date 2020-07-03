@@ -7,8 +7,9 @@ nano - text redactor
 ls -lt (show directory/files sorted by date(t))...cla...      
 tab - autofill            
 sh - different shell (uses less resources(no colours and stuff..))      
-absolūtā adrese vienmēr ir (/ aka (root)    
-hexdump -C abc.txt
+absolūtā adrese vienmēr ir (/ aka (root)  
+hexdump -C abc.txt  
+[Hexdump](http://manpages.ubuntu.com/manpages/xenial/en/man1/hexdump.1.html)  
 
 
 
@@ -22,11 +23,12 @@ x - execute
 ![Screenshot from 2020-07-03 14-43-50](https://user-images.githubusercontent.com/58115541/86466089-b1af5780-bd3b-11ea-8f33-27f9b5c111c8.png)        
 cd - aiziet home/user (or default directory)    
 cd . - aiziet uz to pašu vietu kur esi tagad        
-cd .. - aiziet no jeb kuras citas direktorijas tur kur vajag (piem cd ../Desktop or cd ../Documents)  (vai vienkārši cd .. jump the tree(similar so cd /)) |   
+cd .. - aiziet no jeb kuras citas direktorijas tur kur vajag (piem cd ../Desktop or cd ../Documents)  (vai vienkārši cd .. jump the tree(similar so cd / (goes to root)))   
+  
 cp ../abc.txt ../ABC/abc2.txt (kopē abc.txt un ieliek viņu /ABC/abc2.txt)   
 cat ../ABC/abc2.txt - read this file (jābūt pareizajā direktorijā(mapē))         
 
-
-adresses - absolute (/ - root directory), relative (. , .. , ~)
+adresses - absolute (/ - root directory), relative (. , .. , ~)   
+lshw - list everything in the computer (processor,drive,usb ports...)   
 
 
