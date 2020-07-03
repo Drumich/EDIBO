@@ -8,9 +8,9 @@ ls -lt (show directory/files sorted by date(t))...cla...
 tab - autofill            
 sh - different shell (uses less resources(no colours and stuff..))      
 absolūtā adrese vienmēr ir (/ aka (root)  
-hexdump -C abc.txt  
+hexdump -C(or -c) abc.txt  
 [Hexdump](http://manpages.ubuntu.com/manpages/xenial/en/man1/hexdump.1.html)  
-
+[Hexdump / xxd](http://manpages.ubuntu.com/manpages/trusty/man1/xxd.1.html)
 
 
 ![Screenshot from 2020-07-03 14-35-24](https://user-images.githubusercontent.com/58115541/86465573-95f78180-bd3a-11ea-83ec-36650731cc8d.png)    
