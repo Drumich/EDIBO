@@ -1,4 +1,5 @@
 echo $0 - ar kādu termināli strādā  
+[PS1=$ (customise bash prompt)](https://help.ubuntu.com/community/CustomizingBashPrompt)    
 ctrl + alt + t - open terminal      
 ctrl + shift + t - new tab in terminal  
 man command (manual/help how to use this command(q to exit))   
@@ -28,7 +29,7 @@ x - execute
 cd - aiziet home/user (or default directory)    
 cd . - aiziet uz to pašu vietu kur esi tagad        
 cd .. - aiziet no jeb kuras citas direktorijas tur kur vajag (piem cd ../Desktop or cd ../Documents)  (vai vienkārši cd .. jump the tree(similar so cd / (goes to root)))   
-  
+
 cp ../abc.txt ../ABC/abc2.txt (kopē abc.txt un ieliek viņu /ABC/abc2.txt)   
 cat ../ABC/abc2.txt - read this file (jābūt pareizajā direktorijā(mapē))         
 
