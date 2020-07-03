@@ -4,4 +4,7 @@ ctrl + shift + t - new tab in terminal
 man command (manual/help how to use this command(q to exit))   
 command -key1 -key2 argument
 nano - text redactor    
-ls -cla...  
+ls -lt...cla...      
+tab - autofill               
+
+![Screenshot from 2020-07-03 14-35-24](https://user-images.githubusercontent.com/58115541/86465573-95f78180-bd3a-11ea-83ec-36650731cc8d.png)
