@@ -13,6 +13,25 @@ df -B 1 /dev/sda2 (shows disk storage in Bits)
 
 FIELD_LIST is a comma-separated list of columns to be included. Valid field names are: 'source', 'fstype', 'itotal', 'iused', 'iavail', 'ipcent', 'size', 'used', 'avail', 'pcent' and 'target' (see info page).]
 
+```
+#! /bin/bash
+ 
+kopa="`df | grep sda2 | awk '{print $2}'`"
+lietots="`df | grep sda2 | awk '{print $3}'`"
+pieejams="`df | grep sda2 | awk '{print $4}'`"
+
+echo $kopa $lietots $pieejams
+
+echo Tiek izmantoti $((lietots*100/kopa)) %
+echo Ir pieejams $((pieejams*100/kopa)) %
+```
+
+
+
+
+
+
+
 
 
 https://www.geeksforgeeks.org/du-command-linux-examples/
