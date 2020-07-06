@@ -1,4 +1,15 @@
 [loop script](https://stackoverflow.com/questions/11176284/time-condition-loop-in-shell)   
+```
+#!/bin/bash
+secs=10
+SECONDS=0
+while (( SECONDS < secs )) ; 
+do
+df --output=pcent /dev/sda2
+sleep 1
+done
+```   
+
 
 
 
