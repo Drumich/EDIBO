@@ -5,7 +5,7 @@ secs=10
 SECONDS=0
 while (( SECONDS < secs )) ; 
 do
-df --output=pcent /dev/sda2
+df --output=pcent /dev/sda2 | tail -1
 sleep 1
 done
 ```   
