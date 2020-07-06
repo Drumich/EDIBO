@@ -31,7 +31,7 @@ echo Ir pieejams $((pieejams*100/kopa)) %
 
 
 
-
+[%](https://unix.stackexchange.com/questions/421083/bash-how-to-calculate-percentage-from-number)   
 https://www.geeksforgeeks.org/du-command-linux-examples/        
 https://help.ubuntu.com/community/grep  
 https://www.tldp.org/LDP/abs/html/textproc.html         
