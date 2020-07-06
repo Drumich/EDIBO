@@ -1,4 +1,7 @@
 [loop script](https://stackoverflow.com/questions/11176284/time-condition-loop-in-shell)   
+
+
+60 second loop
 ```
 #!/bin/bash
 secs=10
@@ -10,6 +13,15 @@ sleep 1
 done
 ```   
 
+Forever loop
+```
+#!/bin/bash
+for (( ; ; ))
+do
+df --output=pcent /dev/sda2 | tail -1
+sleep 1
+done
+```    
 
 
 
