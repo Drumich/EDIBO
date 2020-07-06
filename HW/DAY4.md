@@ -1,3 +1,7 @@
+[loop script](https://stackoverflow.com/questions/11176284/time-condition-loop-in-shell)   
+
+
+
 https://tsugi.sakai.lv/portal - must register here for projects and sharing...  
 
 
