@@ -32,10 +32,10 @@ echo Ir pieejams $((pieejams*100/kopa)) %
 
 
 
-https://www.geeksforgeeks.org/du-command-linux-examples/
-https://help.ubuntu.com/community/grep
-https://www.tldp.org/LDP/abs/html/textproc.html
-https://askubuntu.com/questions/847752/how-to-capture-disk-usage-percentage-of-a-partition-as-an-integer
-https://www.tutorialspoint.com/sed/sed_overview.htm 
-https://askubuntu.com/questions/20752/how-can-i-search-within-a-manpage
-https://www.gnu.org/software/bash/manual/bash.pdf
+https://www.geeksforgeeks.org/du-command-linux-examples/        
+https://help.ubuntu.com/community/grep  
+https://www.tldp.org/LDP/abs/html/textproc.html         
+https://askubuntu.com/questions/847752/how-to-capture-disk-usage-percentage-of-a-partition-as-an-integer        
+https://www.tutorialspoint.com/sed/sed_overview.htm     
+https://askubuntu.com/questions/20752/how-can-i-search-within-a-manpage         
+https://www.gnu.org/software/bash/manual/bash.pdf       
