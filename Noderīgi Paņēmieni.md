@@ -1,4 +1,4 @@
-. filename (execute a file/script)   
+. filename or bash filename (execute a file/script in bash)   
 time ./ filename (shows how long you script loads)    
 echo $0 - ar kādu termināli strādā    
 [PS1=$ (customise bash prompt)](https://help.ubuntu.com/community/CustomizingBashPrompt)    
