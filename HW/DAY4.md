@@ -23,8 +23,9 @@ echo $kopa $lietots $pieejams
 echo Tiek izmantoti $((lietots*100/kopa)) %
 echo Ir pieejams $((pieejams*100/kopa)) %
 ```
-
-
+```
+$echo awk -v n=1000 'BEGIN{print(n*0.8)}'
+```
 
 
 
