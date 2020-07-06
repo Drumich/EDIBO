@@ -1,0 +1,293 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  cd /etc
+    4  pwd
+    5  ls
+    6  ls -lt
+    7  ls | wc
+    8  cd
+    9  cd /Desktop
+   10  cd home/user/Desktop
+   11  cd /Desktop/
+   12  pwd
+   13  ls -lt
+   14  cd /Desktop
+   15  cd -
+   16  pwd
+   17  cd /home/user/Dekstop
+   18  cd /home/user/Desktop
+   19  pwd
+   20  cd -
+   21  cd /etc
+   22  cd /Desktop
+   23  cd home/user/Desktop
+   24  cd-
+   25  cd -
+   26  pwd
+   27  vim
+   28  whereis vim
+   29  cd /vim
+   30  cd /user/bin/vim
+   31  cd etc/vim
+   32  cd /etc/vim
+   33  ls
+   34  whereis vi
+   35  cd
+   36  whereis vim
+   37  whereis vi
+   38  cd /home/user/usr
+   39  cd /home/user/bin
+   40  cd /usr/bin
+   41  cd /usr/bin/vim
+   42  cd /vim
+   43  ls
+   44  ls -lt
+   45  cd
+   46  ls /Desktop
+   47  ls /home/user/Desktop
+   48  ls -lt /home/user/Desktop
+   49  pwd
+   50  ls
+   51  ls /Downloads
+   52  ls /Documents
+   53  cd /Documents
+   54  cd home/user\/Documents
+   55  cd home/user/Documents
+   56  cd
+   57  cd /Documents/
+   58  cd /Documents
+   59  cd Documents
+   60  ls
+   61  ls | wc
+   62  ls -lt
+   63  cd MATLAB
+   64  pwd
+   65  ls
+   66  cd
+   67  cd Desktop
+   68  cd
+   69  whereis vim
+   70  cd usr/bin/vim
+   71  cd vim
+   72  cd bin/
+   73  cd /bin/
+   74  ls
+   75  cd vim
+   76  cd /vim
+   77  cd /vim/
+   78  cd
+   79  ls -l /usr/bin/vi
+   80  ls -l /etc/alternatives/vi
+   81  ls -l whereis vim
+   82  ls -l| whereis vim
+   83  ls -l ; whereis vim
+   84  ls -l ; `whereis vim`
+   85  ls -l `whereis vim`
+   86  ls -l ; `whereis vim`
+   87  ls -l ; whereis vim
+   88  ls -l ; `whereis vim`
+   89  ls -l `whereis vim`
+   90  ls -l /etc/alternatives/vim
+   91  ls -l /usr/bin/vim.basic
+   92  ls -l /usr/bin/vim
+   93  ls -l /usr/bin/vim.basic
+   94  df
+   95  df -h
+   96  df -l
+   97  df -lh
+   98  ls dev/sda2
+   99  ls /dev/sda2
+  100  ls /dev
+  101  ls /dev/cpu
+  102  ls -l /dev/cpu
+  103  ls -l /dev/cpu/microcode
+  104  ls /dev/mqueue
+  105  ls
+  106  cd
+  107  pwd
+  108  lsblk
+  109  ls -l /dev
+  110  ls -l /dev | wc
+  111  wc --help
+  112  ls -l /dev | wc -l
+  113  ls -l /dev ; wc -l
+  114  ls -l /dev ; wc
+  115  ls -l /dev | wc
+  116  df -h /dev
+  117  df -h Desktop
+  118  cd Desktop
+  119  history > h.txt
+  120  ls -l
+  121  ls -lt
+  122  du
+  123  du -h
+  124  df -h
+  125  df -h > df.txt
+  126  nano df.txt
+  127  df -h dev/sda2
+  128  df -h /dev/sda2
+  129  df -h | grep /dev
+  130  df -h | grep /dev/sda2
+  131  grep --help
+  132  df -h | grep /dev/sda2
+  133  df --output=pcent /dev/sda2
+  134  cd
+  135  df --output=pcent /dev/sda2
+  136  tr --help
+  137  df --output=pcent /dev/sda2
+  138  df --output
+  139  df --output --help
+  140  df --output=pcent /dev/sda2
+  141  ls
+  142  ls -lt
+  143  chmod 777 notes.txt
+  144  ls -lt
+  145  chmod 744 notes.txt
+  146  ls -lt
+  147  chmod -x notes.txt
+  148  ls -lt
+  149  df --output=pcent /dev/sda2
+  150  df -h
+  151  df -h /dev/sda2
+  152  dev --help
+  153  df -h /dev/sda2
+  154  df --output=pcent /dev/sda2
+  155  man --help
+  156  man
+  157  man grep
+  158  man df
+  159  man grep
+  160  awk\
+  161  awk --help
+  162  man awk
+  163  man grep
+  164  man egrep
+  165  grep -V
+  166  man egrep
+  167  man df
+  168  df -h
+  169  df -H
+  170  man ls
+  171  man sed
+  172  cat notes.txt
+  173  sed 'whereis' notes.txt
+  174  sed '' notes.txt
+  175  sed 'whereis' notes.txt
+  176  sed 'whereis'
+  177  sed -e '1d' notes.txt
+  178  sed -e '1d' -e '2d' -e '5d' notes.txt
+  179  echo -e "1d/n2d/n5d" > notes.txt
+  180  cat notes.txt
+  181  nano c.txt
+  182  cm
+  183  nano notes.txt
+  184  vim ay.sh
+  185  nano notes.txt
+  186  df | head -n 1
+  187  df -h
+  188  man df
+  189  df 
+  190  df /dev/sda2
+  191  df -B dev/sda2
+  192  df -B 1 /dev/sda2
+  193  man df
+  194  df -BM 1 /dev/sda2
+  195  df -BMh 1 /dev/sda2
+  196  df -BM -h 1 /dev/sda2
+  197  df -h -BM 1 /dev/sda2
+  198  man sed
+  199  df --total -hl
+  200  df --total -hl /dev/sda2
+  201  df -hl /dev/sda2
+  202  df --output=pcent
+  203  man sed
+  204  man man
+  205  man df
+  206  df --output
+  207  df --output=
+  208  man df
+  209  df --output=pcent
+  210  df --output=pcent,itotal
+  211  df --output=pcent,used
+  212  df --output=pcent,used,size
+  213  df --output=pcent,size
+  214  df --output=pcent,ipcent
+  215  df --output=source,pcent,ipcent
+  216  df --output=pcent
+  217  z="`df | grep sda2 | awk '{print$2}'`"
+  218  echo z
+  219  echo $z
+  220  df /home | awk'{print $5}' | sed 's/|//'
+  221  vim ay.sh
+  222  ./ ay.sh
+  223  ./ /ay.sh
+  224  cd
+  225  ./ /home.ay.sh
+  226  ls -lt
+  227  chmod 777 ay.sh
+  228  ./ /ay.sh
+  229  ./ ay.sh
+  230  . ay.sh
+  231  basha y.sh
+  232  bash ay.sh
+  233  ./ay.sh
+  234  .ay.sh
+  235  . ay.sh
+  236  time .ay.sh
+  237  time ./ay.sh
+  238  time bash ay.sh
+  239  cp ../notes.txt
+  240  nano 1.sh
+  241  ls -lt
+  242  chmod 777 1.sh
+  243  bash 1.sh
+  244  nano 1.sh
+  245  bash 1.sh
+  246  bash ay.sh
+  247  nano ay.sh
+  248  bash ay.sh
+  249  nano 1.sh
+  250  bash 2.sh
+  251  bash 1.sh
+  252  ls
+  253  whereis vim
+  254  df
+  255  nano 2.sh
+  256  nano 1.sh
+  257  nano ay.sh
+  258  bash ay.sh
+  259  .ay.sh
+  260  ./ay.sh
+  261  .ay
+  262  bash ay
+  263  bash ay.sh
+  264  nano ay.sh
+  265  bash 02.sh
+  266  df -h
+  267  df -h /dev/sda2
+  268  %repeat 5 echo "asdas"
+  269  df -h /dev/sda2
+  270  repeat 5 echo "asda"
+  271  repeat
+  272  echo $df -h
+  273  df -h /dev/sda2
+  274  vim 02.sh
+  275  bash 02.sh
+  276  vim 02.sh
+  277  bash 02.sh
+  278  vim 02.sh
+  279  df --output=pcnt /dev/sda2
+  280  df
+  281  cd
+  282  df --output=pcnt
+  283  df --output=pcent
+  284  df --output=pcent /dev/sda2
+  285  bash 02.sh
+  286  df --output=pcent | tr -dc '0-9'
+  287  bash 02.sh
+  288  less 02.sh
+  289  bash 02.sh
+  290  vim 03.sh
+  291  vim 02.sh
+  292  history
+  293  history > d4H.txt
