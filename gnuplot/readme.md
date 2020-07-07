@@ -8,7 +8,9 @@ w lp = with linepoints
 t "title" = title of the line    
 lw 2 = line width  
 
- 
+```
+plot "1.dat" u 1:2 w l , "1.dat" u 1:3 w l , "1.dat" u 1:4 w l     
+ ```
  
  
  
