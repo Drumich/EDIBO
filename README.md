@@ -1,4 +1,8 @@
 # EDIBO
+https://tsugi.sakai.lv/portal - must register here for projects and sharing...
+
+
+
 EDIBO projekta elektroniskā klade
 
 Mans pirmais ieraksts   
