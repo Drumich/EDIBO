@@ -16,7 +16,7 @@ lw 2 = line width
 
 
  
-[Process Memory/CPU Usage](https://dzone.com/articles/monitoring-process-memorycpu-usage-with-top-and-pl)     
+[SCRIPT Process Memory/CPU Usage](https://dzone.com/articles/monitoring-process-memorycpu-usage-with-top-and-pl)     
 
 
 [Lines,Colors...](http://gnuplot.sourceforge.net/docs_4.2/node62.html)   
