@@ -1,7 +1,7 @@
  
 set grid = grid tiles   
 set title = main title   
-set yrange [20:160] = sets lowest y to 20 and highest to 160  
+set yrange [20:160] = sets lowest y to 20 and highest y to 160  
 u 1:2 = using 1:2   
 w lp = with linepoints    
 t = title of the line    
