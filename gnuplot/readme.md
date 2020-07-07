@@ -2,9 +2,9 @@ plot "1.dat" # assumes col1=x, col2=y; shows '+' at data point
 plot '2col.dat' using 1:2                      # 1=x, 2=y (this is the default)    
 plot '2col.dat' using 2:1                      # 2=x, 1=y (reverse the graph)    
 
-![1](https://user-images.githubusercontent.com/58115541/86800767-0a545c80-c07c-11ea-91ed-2a69c9dcf959.png)
-
-set terminal png = (to save graph as png)   
+![1](https://user-images.githubusercontent.com/58115541/86800767-0a545c80-c07c-11ea-91ed-2a69c9dcf959.png)   
+set xlabel "label" = ( shows x as label )   
+set terminal png = (to save graph as png)    
 set output "1.png" (saves graph as png)    
 set grid = grid tiles   
 set title "title" = main title   
