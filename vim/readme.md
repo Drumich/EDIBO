@@ -1,3 +1,4 @@
+
 #! /bin/bash
 #Comment
 cd
@@ -77,3 +78,14 @@ https://askubuntu.com/questions/847752/how-to-capture-disk-usage-percentage-of-a
 https://www.tutorialspoint.com/sed/sed_overview.htm     
 https://askubuntu.com/questions/20752/how-can-i-search-within-a-manpage         
 https://www.gnu.org/software/bash/manual/bash.pdf       
+
+
+
+Git upload  
+
+#!/bin/bash
+git config --global user.email eee@eeee.lv
+git add .
+git commit -m "02072020_16_20"
+git pull
+git push origin master
