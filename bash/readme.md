@@ -1,4 +1,6 @@
 . filename or bash filename (execute a file/script in bash)   
+
+ps -a (shows bash things running (kill -9 12345 to stop it running))
 rm gg.txt (deletes a file)
 time ./ filename (shows how long you script loads)    
 echo $0 - ar kādu termināli strādā    
