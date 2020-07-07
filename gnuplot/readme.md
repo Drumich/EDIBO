@@ -1,4 +1,5 @@
 set terminal png = (to save graph as png)   
+set output "1.png" (saves graph as png)    
 set grid = grid tiles   
 set title "title" = main title   
 set yrange [20:160] = sets lowest y to 20 and highest y to 160  
