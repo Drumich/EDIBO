@@ -1,4 +1,4 @@
-
+```
 #! /bin/bash
 #Comment
 cd
@@ -6,7 +6,7 @@ echo "Hello World"
 a=3 b=4
 echo $a+$b=$((a+b))
 echo `date`
-
+```
 
 
 [loop script](https://stackoverflow.com/questions/11176284/time-condition-loop-in-shell)   
@@ -82,10 +82,11 @@ https://www.gnu.org/software/bash/manual/bash.pdf
 
 
 Git upload  
-
+```
 #!/bin/bash
 git config --global user.email eee@eeee.lv
 git add .
 git commit -m "02072020_16_20"
 git pull
 git push origin master
+```
