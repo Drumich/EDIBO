@@ -1,3 +1,7 @@
+ ![ey](https://i.stack.imgur.com/QpFsh.png)
+ 
+ 
+ 
  ra - raise  
        low - lower  
         bi - bind  
