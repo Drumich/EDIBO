@@ -19,3 +19,4 @@ lw 2 = line width
 [Lines,Colors...](http://gnuplot.sourceforge.net/docs_4.2/node62.html)   
 [Guide1](https://alvinalexander.com/technology/gnuplot-charts-graphs-examples/)   
 [Guide2 Demo](http://gnuplot.sourceforge.net/demo/)   
+[Process Memory/CPU Usage](https://dzone.com/articles/monitoring-process-memorycpu-usage-with-top-and-pl)
