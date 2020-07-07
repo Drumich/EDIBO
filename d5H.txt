@@ -1,0 +1,153 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  firefox
+    4  vim 4col.csv
+    5  grep --help
+    6  grep -h
+    7  vim d.sh
+    8  vim d1.sh
+    9  bash d1.sh
+   10  vim d1.sh
+   11  bash d1.sh
+   12  vim d1.sh
+   13  free
+   14  free -h
+   15  vim d1.sh
+   16  bash d1.sh
+   17  free -h
+   18  free -hm
+   19  free -m
+   20  bash d1.sh
+   21  gnuplot
+   22  vim d1.sh
+   23  bash d1.sh
+   24  gnuplot
+   25  bash d1.sh
+   26  free -h ; do top -p
+   27  vim 1.sh
+   28  gnuplo
+   29  gnuplot
+   30  for i in {0..10} ; do echo $((i)) ; done
+   31  for i in {0..10} ; do echo $((i)) ((i*i)) ; done
+   32  for i in {0..10} ; do echo $((i)) $((i*i)) ; done
+   33  for i in {0..10} ; do echo $((i)) $((i*i)) $((i*i*i)); done
+   34  for i in {0..10} ; do echo $((i)) $((i*i)) $((i*i*i)); done > n.csv
+   35  for i in {0..10} ; do echo $((i)) $((i*i)) $((i*i*i)); done > n.dat
+   36  gnuplot
+   37  vim 4col.csv
+   38  gnuplot
+   39  --version
+   40  -V
+   41  version
+   42  help version
+   43  info version
+   44  gnuplot
+   45  vim 1.csv
+   46  plot '1.csv' with lines
+   47  gnuplot
+   48  free
+   49  free -m
+   50  vim d.sh
+   51  bash d.sh
+   52  bash 1.sh
+   53  free -h | top -1
+   54  free -h | top 1
+   55  free -hv 
+   56  free
+   57  free -h
+   58  free -h, -s 1 , -c 10
+   59  free -h, -s 1
+   60  free -h, -s 
+   61  free -h -s 2 
+   62  free -h -s 1 -c 10
+   63  free -h -s 1 -c 10 | head -1
+   64  free -h -s 1 -c 10 | head -2
+   65  free -h -s 1 -c 10 | tail -2
+   66  free -h -s 1 -c 10 | tail -1
+   67  free -h -s 1 -c 10 | head 1
+   68  free -h -s 1 -c 10 | head 0
+   69  free -h -s 1 -c 10 | head -1
+   70  free -h -s 1 -c 10 | head -2
+   71  free -h -s 1 -c 10
+   72  free -n
+   73  free -m
+   74  free -w
+   75  free -wh
+   76  free -h
+   77  free -w
+   78  free -wh
+   79  -free -h
+   80  free -h
+   81  free -h cut -w
+   82  free -h cut -w 8-
+   83  free -h cut -w 2-
+   84  free -h cut -w 20-
+   85  free -h cut -w
+   86  free -h
+   87  free --output-pcent
+   88  free --output=pcent
+   89  free -h | grep Mem
+   90  free -h -s 1 -c 10 | grep Mem
+   91  free -h -s 1 -c 10 | grep Mem | awk '{print $3/$2 * 100}'
+   92  free -h -s 1 -c 10 | grep Mem
+   93  free -h -s 1 -c 10 | cut -w grep Mem
+   94  free -h -s 1 -c 10 | cut -w
+   95  free -h -s 1 -c 10 , cu[A
+   96  free -h -s 1 -c 10 , cut -w | grep Mem
+   97  free -h -s 1 -c 1 , cut -w | grep Mem
+   98  free -h -s 1 -c 1 | grep Mem
+   99  free -m -s 1 -c 1 | grep Mem
+  100  free -m -s 1 -c 100 | grep Mem > mem.txt
+  101  free -m -s 1 -c 100 > mem.txt
+  102  free -m -s 1 -c 1
+  103  free -m -s 1 -c 1 | grep mem
+  104  free -m -s 1 -c 1 | grep Mem
+  105  free -m -s 1 -c 2 | grep Mem
+  106  free -m -s 1 -c 2 | grep Mem > mem.txt
+  107  free -m -s 1 -c 100 | grep Mem > mem.txt
+  108  free -m -s 1 -c 100 | grep 
+  109  free -m -s 1 -c 100 | grep Mem
+  110  free -m -s 1 -c 1 | grep Mem | cut -w
+  111  free -m -s 1 -c 1 | grep Mem | cut -c
+  112  cut --help
+  113  free -m -s 1 -c 1 | grep Mem | cut --output=Mem
+  114  free -m -s 1 -c 1 | grep Mem | cut 
+  115  free -m -s 1 -c 1 | grep Mem
+  116  free -m -s 1 -c 1 | grep Mem | cut -d
+  117  free -m -s 1 -c 1 | grep Mem
+  118  free -m -s 1 -c 1
+  119  free -m -s 1 -c 1 | grep Swap
+  120  free -m -s 1 -c 1 |
+  121  free -m -s 1 -c 1
+  122  free -m -s 1 -c 1 | grep Swap | cut -d -f 1
+  123  free -m -s 1 -c 1 | grep Swap | cut -d
+  124  free -m -s 1 -c 1 | cut -d | grep Swap 
+  125  free -m -s 1 -c 1 | grep Swap
+  126  free -m -s 1 -c 1 | grep Mem
+  127  free -m -s 1 -c 10 | grep Mem > mem.csv
+  128  free -m -s 1 -c 10 | grep Mem
+  129  plot '1.csv' with lines
+  130  free -m -s 1 -c 10 | grep Mem > m.dat
+  131  bash 1.sh
+  132  wc 2.dat
+  133  cat 2.dat
+  134  bash 1.sh
+  135  cat 2.dat
+  136  bash 1.sh
+  137  cat 2.dat
+  138  bash 1.sh
+  139  cat 2.dat
+  140  vim n.dat
+  141  vim 1.dat
+  142  cat 1.dat
+  143  vim 1.dat
+  144  bash 1.png
+  145  cat 1.dat
+  146  top
+  147  top --help
+  148  top -hv
+  149  top -h
+  150  man top
+  151  free -m -s 1 -c 1 | grep Mem |
+  152  free -h
+  153  history > d5H.txt
