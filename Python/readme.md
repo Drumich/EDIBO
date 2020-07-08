@@ -2,5 +2,6 @@ python -m http.server = launches python so you can view you directories (127.0.0
 
 
 [Python stuff](https://www.w3schools.com/python/python_variables.asp)           
-[Python math and stuff](https://en.wikibooks.org/wiki/Python_Programming/Basic_Math)        
+[Python math and stuff](https://en.wikibooks.org/wiki/Python_Programming/Basic_Math)    
+[More Python stuff](https://www.py4e.com/lessons)       
     
