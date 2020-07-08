@@ -1,7 +1,7 @@
-bc = opens base conversion(convert decimal numbers to binary)
-ibase=10
-obase=2
-
+bc = opens base conversion(convert decimal numbers to binary)   
+ibase=10    
+obase=2     
+[Decimal to Binary conversion](https://www.thecrowned.org/base-conversion-ubuntu-decimal-binary)    
 
 
 
