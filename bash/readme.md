@@ -1,3 +1,7 @@
+[for/while...](https://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-7.html)   
+
+
+
 bc = opens base conversion(convert decimal numbers to binary)   
 ibase=10    
 obase=2     
