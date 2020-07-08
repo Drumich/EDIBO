@@ -6,7 +6,7 @@ cd
 echo "Skripts sākās."
 sleep 1
 
-echo "Kādi faili atrodās šeit?"
+echo "Kādi faili atrodās /home/user"
 sleep 1
 ls -lt
 sleep 1
