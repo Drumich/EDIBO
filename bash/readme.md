@@ -1,3 +1,11 @@
+bc = opens base conversion(convert decimal numbers to binary)
+ibase=10
+obase=2
+
+
+
+
+
 . filename or bash filename (execute a file/script in bash)   
 
 ps -a (shows bash things running (kill -9 12345 to stop it running))
