@@ -1,25 +1,23 @@
 ```
 #!/bin/bash
 
-function convip()
+function num()
 {
     CONV=({0..1}{0..1}{0..1}{0..1}{0..1}{0..1}{0..1}{0..1})
 
-    ip=""
+    n=""
     for byte in `echo ${1} | tr "." " "`; do
-        ip="${ip}.${CONV[${byte}]}"
+        n="${n}.${CONV[${byte}]}"
     done
-    echo ${ip:1}
+    echo ${n:1}
 }
 
-echo "Enter the first ip"
-read ip1
-echo "Enter the second ip"
-read ip2
+echo "Enter the number"
+read n
 
-a=`convip "${ip1}"`
-b=`convip "${ip2}"`
+a=`num "${n}"`
+
 
 echo "${a}"
-echo "${b}"
+
 ```
