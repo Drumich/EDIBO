@@ -1,3 +1,5 @@
+tput setaf 1 = (output colour changes to RED)
+
 [Stuff](https://www.tldp.org/LDP/Bash-Beginners-Guide/html/sect_02_01.html)   
 
 [for/while...](https://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-7.html)   
