@@ -1,4 +1,10 @@
-tput setaf 1 = (output colour changes to RED)
+tput setaf 1 = (output colour changes to RED)     
+```
+echo $1 $2 #($1 and $2 are arguments used when executing script for example ./1.dat 123 1234)
+```
+
+
+
 
 [Stuff](https://www.tldp.org/LDP/Bash-Beginners-Guide/html/sect_02_01.html)   
 
