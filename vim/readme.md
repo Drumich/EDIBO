@@ -1,3 +1,6 @@
+[VIM commands and stuff](https://www.radford.edu/~mhtay/CPSC120/VIM_Editor_Commands.htm)  
+
+
 :q! exit    
 :wq save and exit       
 ESC 0 : to exit MC    
@@ -7,8 +10,7 @@ X (Delete a character)
 D+D (Delete a line/row)     
 G+G (Go to first lines first character 1,1)   
 Shift+G (Goes to last lines last character)       
-
-[Download Total Commander](https://www.ghisler.com/)  
+ 
 
 
 
