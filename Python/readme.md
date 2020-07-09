@@ -1,3 +1,6 @@
+[python challenges](https://www.hackerrank.com/)    
+
+
 dir(a)  what you can do with this variable      
 a.reverse() (reverses the list)   
 a.sort() (sorts list by numerical values)   
