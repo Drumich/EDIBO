@@ -9,7 +9,7 @@ a.sort(reverse=True) (sorts the list in reverse(from highest to lowest))
 a = {"ābols":"apple"} ({} dictionary)       
 a["ābols"] (shows apple)   
 a.update({"bumbieris":"pear"})    
-
+a.pop("ābols")    
 
 
 
