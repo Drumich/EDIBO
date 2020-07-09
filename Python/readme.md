@@ -1,9 +1,18 @@
 dir(a)  what you can do with this variable      
 a.reverse() (reverses the list)   
 a.sort() (sorts list by numerical values)   
-a.sort(reverse=True) (sorts the list in reverse(from highest to lowest))        
+a.sort(reverse=True) (sorts the list in reverse(from highest to lowest))  
+
+
+
+
 a = {"ābols":"apple"} ({} dictionary)       
-a["ābols"] (shows apple)    
+a["ābols"] (shows apple)   
+a.update({"bumbieris":"pear"})
+
+
+
+
 python -m http.server = launches python so you can view you directories (127.0.0.1:8000 or localhost:8000 - firefox) or (curl 127.0.0.1:8000 - bash)       
 vars() = shows all variables available      
 type(a) (shows what type is a (for example a = 1 is integer or a = 1.2 is float))     
