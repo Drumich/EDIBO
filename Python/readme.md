@@ -3,7 +3,7 @@ vars() = shows all variables available
 type(a) (shows what type is a (for example a = 1 is integer or a = 1.2 is float))     
 a.__ doc__     
 print(a.__ doc__)      
-
+a[0] (index shows first number)   
 idle & (opens python prompt or smthing)   
 
 [Python stuff](https://www.w3schools.com/python/python_variables.asp)            
