@@ -1,0 +1,143 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  ./d2b.dat
+    4  chmod 740 d2b.dat
+    5  ./d2b.dat
+    6  git init
+    7  cd Desktop
+    8  mkdir git
+    9  git -v
+   10  ls -lt
+   11  cd git
+   12  ls
+   13  vim test.dat
+   14  git config --global user.name "Drumich"
+   15  git config --global user.email "Drumich90@gmail.com"
+   16  git config --global --list
+   17  git add .
+   18  git commit
+   19  ls -lt
+   20  git commit -m "asd"
+   21  git remote -v
+   22  git checkout -b <jesus>
+   23  git checkout master
+   24  git checkout -b <jesus>
+   25  git checkout -b "jesus"
+   26  git commit -m
+   27  git commit -m .
+   28  git status
+   29  git commit -m "asdasdsda"
+   30  git add <blebleble>
+   31  git commit -m "asda"
+   32  git checkout master
+   33  git commit -m "asda"
+   34  git remote -v
+   35  git pull
+   36  git pull master 
+   37  git pull readme.md master 
+   38  git pull Dreamteam4 master
+   39  git checkout
+   40  git checkout master
+   41  git add .
+   42  git commit -m "asda"
+   43  git push origin master
+   44  python
+   45  vim d2b.dat
+   46  python
+   47  cd
+   48  mkdir 20200709
+   49  cd 20200709
+   50  pwd
+   51  touch a.dat
+   52  ls
+   53  ls -lt
+   54  chmod 740 a.dat
+   55  pwd
+   56  ls -lt
+   57  ls -l
+   58  echo 1 > a.dat
+   59  ls -l
+   60  echo a > a.dat
+   61  ls -l
+   62  printf a > b.dat
+   63  ls -l
+   64  hexdump
+   65  hexdump a.dat
+   66  hexdump b.dat
+   67  hexdump -z a.dat
+   68  hexdump -b a.dat
+   69  hexdump -c a.dat
+   70  hexdump -C a.dat
+   71  hexdump -d a.dat
+   72  hexdump -x a.dat
+   73  hexdump -v a.dat
+   74  hexdump -o a.dat
+   75  ls -lt
+   76  cd 20200709
+   77  ls
+   78  git commit -m
+   79  git commit -m "asa"
+   80  git commit -m d2b.dat
+   81  git commit -m /d2b.dat
+   82  git add -A
+   83  git add -all
+   84  git add --all
+   85  git init
+   86  ls
+   87  git commit -m "asdasd"
+   88  git remote -v
+   89  git push origin master
+   90  git ls
+   91  git log
+   92  git push -u origin master
+   93  git remote add origin "https://github.com/Drumich/Dreamteam4"
+   94  git push -u origin master
+   95  git pull
+   96  git push -u origin master
+   97  ls
+   98  git pull --all
+   99  git branch
+  100  git checkout --track origin/Dreamteam4
+  101  git checkout --track origin/master
+  102  git checkout --track origin/jesus
+  103  git checkout --track Dreamteam4/jesus
+  104  ls
+  105  cd 20200709
+  106  ls
+  107  git config --local user.name "Drumich"
+  108  git config --local user.email "Drumich90@gmail.com"
+  109  git config --local --list
+  110  git commit -m "asdasd"
+  111  git commit -m "asdasdaaaaaaaaaaa"
+  112  git branch --set-upstream-to origin/master
+  113  git commit -m "asdasdaaaaaaaaaaa"
+  114  git branch -u origin/master
+  115  git commit -m "asdasdaaaaaaaaaaa"
+  116  git init
+  117  git remote add origin "https://github.com/Drumich/Dreamteam4"
+  118  git config --global user.name "Drumich"
+  119  git config --global user.email "Drumich90@gmail.com"
+  120  git commit -m "asdasdaaaaaaaaaaa"
+  121  git pull
+  122  git pull --help
+  123  git status
+  124  reset
+  125  curl google.com
+  126  git checkout "Jesus"
+  127  git checkout -b "asdas"
+  128  git add .
+  129  ls
+  130  cd 20200709
+  131  ls
+  132  git add .
+  133  git status
+  134  git checkout asdas
+  135  echo asdasd > ay.txt
+  136  git add ay.txt
+  137  git commit -m "asdasdasdasd"
+  138  curl google.com | hexdump
+  139  curl google.com | hexdump | less
+  140  ./counter.dat
+  141  python counter.dat
+  142  history
+  143  history > h7.txt
