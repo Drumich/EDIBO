@@ -8,4 +8,5 @@ cd repository
 echo "asd" > a.txt    
 git add a.txt   
 git commit -m "commit message/commentary" 
+git push
 ```
