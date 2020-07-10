@@ -51,7 +51,32 @@ print("\t" , "\n" , end="") (tab , new row ...)
 
 
 
+```
+Vārds = "Jānis"
+summa = 420
+nr = 6969696969
 
+
+
+
+s = """
+Godājamais %s
+Jums ir pienācis naudas pārvedums
+ar vērtību %d EUR
+Lai saņemtu naudu atsūtiet
+īsziņu uz telefona nr. %d
+
+Cieņā,
+         Atraitne.
+"""  %(Vārds,summa,nr)
+
+print(s)
+
+
+# %s = string
+# %d = int
+
+```
 
 
 
