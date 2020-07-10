@@ -50,7 +50,7 @@ print("\t" , "\n" , end="") (tab , new row ...)
 
 
 
-
+[%s and %d](https://matthew-brett.github.io/teaching/string_formatting.html)   
 ```
 Vārds = "Jānis"
 summa = 420
