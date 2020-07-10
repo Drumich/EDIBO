@@ -4,7 +4,11 @@
 
 [python challenges](https://www.hackerrank.com/)          
 
-f = open("a.dat" , "w") (creates a .dat "w" = writeable)  
+f = open("a.dat" , "w") (creates a .dat "w" = writeable)    
+f.tell()  
+f.write("Hello")    
+f.close()   
+
 
 
 dir(a)  what you can do with this variable      
