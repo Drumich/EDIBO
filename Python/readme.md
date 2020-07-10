@@ -1,8 +1,10 @@
-%history -f a.txt   (saves ipythons current sessions history)
+%history -f a.txt   (saves ipythons current sessions history)   
 
-[!!!Python problem solutions!!!](https://www.sanfoundry.com/python-problems-solutions/)     
+[!!!Python problem solutions!!!](https://www.sanfoundry.com/python-problems-solutions/)       
 
-[python challenges](https://www.hackerrank.com/)        
+[python challenges](https://www.hackerrank.com/)          
+
+f = open("a.dat" , "w") (creates a .dat "w" = writeable)  
 
 
 dir(a)  what you can do with this variable      
