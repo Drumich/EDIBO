@@ -32,7 +32,17 @@ idle & (opens python prompt or smthing)
 
 a"aA".hex() = 41    
 hex(ord("A")) = 0x41    
+  
+s = set()     
+s.add(11) = can add strings and stuff     
+s2 = set()  
+s2.add(11)  
+s - s2    
+s.difference(s2)    
 
+
+for i in range(9):print(i) = (or i* i or i,i or i,i* i)   
+for i in range(-4,5) : print(i) = show numbers from -4 to 4   
 
 
 [Python stuff](https://www.w3schools.com/python/python_variables.asp)            
