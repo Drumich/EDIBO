@@ -1,0 +1,308 @@
+import numpy as np
+from matplotlib import pyplot as plt
+ys = 200 +np.random.randn(50)
+x = [x for x in range(len(ys))]
+plt.plot(x , ys , '-')
+b = b"123"
+type(b)
+dic(b)
+dir(b)
+hex(b)
+b = b"a"
+b.de
+b.hex()
+b = b"A"
+b.hex()
+b"aA".hex()
+hex(ord("A"))
+b"A".hex()
+bin(1)
+bin(2)
+bin(7)
+bin(10)
+hex(ord("A"))
+s = set()
+type(s)
+s.add(11)
+type(s)
+s
+s.add(5)
+s.add(69)
+s.add(420)
+s
+s.add("jesus")
+s
+s.add("A")
+s.add("B")
+s.add("Z")
+s
+s.add("C")
+s
+s2 = set()
+s2.add(69)
+s2.add("A)
+s2.add("A")
+s
+s2
+s2.add("G")
+s2
+s
+s - s2
+s2 - s
+s
+s2
+print(s2-s)
+print(s-s2)
+s+s2
+s*s2
+s.difference(s2)
+ss
+s
+s2
+s.difference(s2)
+for i in range(9):print i
+for i in range(9):print(i)
+for i in range(69):print(i)
+for i in range(70):print(i)
+for i in range(70):print(i)
+for i in range(70):print(i)
+for i in range(70):print(i*i)
+for i in range(70):print(i,i)
+for i in range(70):print(i,i*i)
+for i in range(70):print(i,i*i,i)
+range.__doc__
+print(range.__doc__)
+for i in range(5):print(i,i+2,i*i)
+for i in range(5):print(i,i+2,i*i);print("N)
+for i in range(5):print(i,i+2,i*i);print("N")
+for i in range(5):print(i,i+2,i*i);print("Number:\")
+for i in range(5):print(i,i+2,i*i);print("Number:")
+for i in range(5):print(i,i+2,i*i);print("Number^")
+for i in range (-4,5): print("Number:") ; print(i)
+for i in range (-4,5): print("Number:") ; print(i,i*i)
+for i in range(5):
+    print("Number"):
+for i in range(5):
+    print("Number");
+    print(i):
+for i in range(5):
+    print("Number");
+    print(i)
+for i in range(5):
+    print("Number");
+    print(i)
+for i in range(5):
+    print("Number")
+    print(i)
+for i in range(5):
+    print("Number")
+    print(i)
+    a = 5
+    print(i*a)
+for i in range(5):
+    print("Number")
+    print(i,end="")
+    a = 5
+    print(i*a)
+for i in range(5):
+    print(i, end="")
+for i in range(5):
+    print(i," ", end="")
+for i in range(5):
+    print(i," ", end=" ")
+for i in range(5):
+    for j in range(2)
+    print(i*j)
+for i in range(5):
+    for j in range(2):
+    print(i*j)
+for i in range(5):
+    for j in range(2)
+        print(i*j)
+for i in range(5):
+    for j in range(2):
+        print(i*j)
+for i in range(5):
+    for j in range(2):
+        print(i, j)
+for i in range(5):
+    for j in range(3):
+        print(i, j)
+for i in range(5):
+    for j in range(5):
+        print(i, j)
+a
+a = []
+a
+a.append([])
+a
+print(a,sep="")
+print(a)
+a.append([])
+a
+a.append([])
+a
+a = []
+a.append(11)
+a.append(22)
+a
+a.append([])
+a
+a.append(33)
+a
+a.append([33])
+a
+a[0][1]
+a[0][2]
+a[1].append(22)
+a.[1]append(22)
+def f():
+    pass
+help()
+def f():
+    print("Hello World)
+def f():
+    print("Hello World)
+def f():
+    print("Hello World")
+f
+f()
+def f(x):
+    print(5*x)
+f(3)
+def f(x):
+    print("Hello World!" * x)
+f(5)
+f(10)
+def f(x):
+    print("Hello World! " * x)
+f(10)
+def f(x):
+    print("Hello World! " * x, \n)
+def f(x):
+    print("Hello World! " * x)
+def f(x):
+    print("Hello World! " * x)
+f(10)
+s = """
+Godājamais x,
+Jums ir pienācis naudas pārvedums
+ar vērtību y EUR
+Lai saņemtu naudu,atsūtiet
+īsziņu uz telefona nr. z
+
+Cieņā,
+        atraitne.
+"""
+s
+print(s)
+t = "Summa = %s"
+t = "Summa = %s"%33
+t
+s = """
+Godājamais x,
+Jums ir pienācis naudas pārvedums
+ar vērtību %t EUR
+Lai saņemtu naudu,atsūtiet
+īsziņu uz telefona nr. z
+
+Cieņā,
+        atraitne.
+"""
+print(s)
+t = "Summa = %s , valūta = %s"%(2, "EUR")
+t
+t = "Summa = %s , valūta = %s , nr = %s"%(2, "EUR", 69696969)
+t
+s = """
+Godājamais %s,
+Jums ir pienācis naudas pārvedums
+ar vērtību %s EUR
+Lai saņemtu naudu,atsūtiet
+īsziņu uz telefona nr. %s
+
+Cieņā,
+        atraitne.
+"""
+s
+print(s)
+t = "Summa = %s , valūta = %s , nr = %s"%("Jānis" , 1 , 69696969)
+t = "Vārds = %s , summa = %s , nr = %s"%("Jānis" , 1 , 69696969)
+t
+print(s % (Vārds))
+print(s % (summa))
+print(s)
+s = """
+Godājamais %s(Vārds),
+Jums ir pienācis naudas pārvedums
+ar vērtību %d EUR
+Lai saņemtu naudu,atsūtiet
+īsziņu uz telefona nr. %d
+
+Cieņā,
+        atraitne.
+"""
+s
+print(s)
+s = """
+Godājamais %s,
+Jums ir pienācis naudas pārvedums
+ar vērtību %d EUR
+Lai saņemtu naudu,atsūtiet
+īsziņu uz telefona nr. %d
+
+Cieņā,
+        atraitne.
+""" % (Vārds,summa,nr)
+s = """
+Godājamais %s,
+Jums ir pienācis naudas pārvedums
+ar vērtību %d EUR
+Lai saņemtu naudu,atsūtiet
+īsziņu uz telefona nr. %d
+
+Cieņā,
+        atraitne.
+""" % (summa,nr)
+t
+nr = 69696996969
+s = """
+Godājamais %s,
+Jums ir pienācis naudas pārvedums
+ar vērtību %d EUR
+Lai saņemtu naudu,atsūtiet
+īsziņu uz telefona nr. %d
+
+Cieņā,
+        atraitne.
+""" % (nr)
+summa = 50000
+Vārds = "Jānis"
+s = """
+Godājamais %s,
+Jums ir pienācis naudas pārvedums
+ar vērtību %d EUR
+Lai saņemtu naudu,atsūtiet
+īsziņu uz telefona nr. %d
+
+Cieņā,
+        atraitne.
+""" % (Vārds,summa,nr)
+print(s)
+print(s)
+print(s)
+s = """
+Godājamais %s,
+Jums ir pienācis naudas pārvedums
+ar vērtību %d EUR
+Lai saņemtu naudu,atsūtiet
+īsziņu uz telefona nr. %d
+
+Cieņā,
+        atraitne.
+""" %(Vārds,summa,nr)
+print(s)
+%history -o -p -f session.txt
+%history s1.txt
+%history -p s1.txt
+%history -f s1.txt
