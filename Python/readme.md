@@ -1,4 +1,6 @@
-[python challenges](https://www.hackerrank.com/)    
+[!!!Python problem solutions!!!](https://www.sanfoundry.com/python-problems-solutions/)     
+
+[python challenges](https://www.hackerrank.com/)        
 
 
 dir(a)  what you can do with this variable      
