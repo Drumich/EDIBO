@@ -4,10 +4,12 @@
 
 [python challenges](https://www.hackerrank.com/)          
 
-f = open("a.dat" , "w") (creates a .dat "w" = writeable)    
-f.tell()  
+f = open("a.dat" , "w") (creates a .dat "w" = writeable)      
+f.tell()    
 f.write("Hello")    
-f.close()   
+f.write("\n\tHelloz\n")   
+f.close()     
+
 
 
 
