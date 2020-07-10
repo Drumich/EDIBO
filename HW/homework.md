@@ -1,4 +1,4 @@
-[ahomework](https://www.udemy.com/course/git-bash/)   
+[ahomework](https://tsugi.sakai.lv/portal/site/e4fe3414-6bcf-4bfb-856d-f2281f98ab79/tool/84e66380-3fc3-4450-8f04-fd226ad5e306?panel=Main)   
 
 homework = understand what every line in a script works
 
