@@ -1,3 +1,5 @@
+%history -f a.txt   (saves ipythons current sessions history)
+
 [!!!Python problem solutions!!!](https://www.sanfoundry.com/python-problems-solutions/)     
 
 [python challenges](https://www.hackerrank.com/)        
