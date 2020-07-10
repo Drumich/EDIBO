@@ -1,4 +1,6 @@
  15.16.17 jābūt 10:00 no rīta?      
+ 
+ huilaiztaigila@g
 
 # EDIBO
 https://tsugi.sakai.lv/portal - must register here for projects and sharing...
