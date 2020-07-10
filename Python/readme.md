@@ -30,6 +30,9 @@ idle & (opens python prompt or smthing)
 
 
 
+a"aA".hex() = 41    
+hex(ord("A")) = 0x41    
+
 
 
 [Python stuff](https://www.w3schools.com/python/python_variables.asp)            
