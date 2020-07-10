@@ -43,6 +43,8 @@ s.difference(s2)
 
 for i in range(9):print(i) = (or i* i or i,i or i,i* i)   
 for i in range(-4,5) : print("Number") ; print(i)  = show numbers from -4 to 4   
+print(i, " " , end="") (print everything in a row NOT a column!)   
+print("\t" , "\n" , end="") (tab , new row ...)
 
 
 
