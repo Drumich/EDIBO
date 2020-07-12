@@ -1,5 +1,5 @@
 ```
-my_dict{}
+my_dict={}
 
 my_dict["Name"] = ["Jimmy"]
 my_dict["Age"] = 69
