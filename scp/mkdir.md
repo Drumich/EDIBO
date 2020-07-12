@@ -1,3 +1,8 @@
+rm -r folder = (deletes this folder and all the folders there )
+
+mkdir -p folder/{1..3}/{1..3} = (makes folders inside a folder )
+
+
 ```
 !#/bin/bash     
 mkdir DEF   
