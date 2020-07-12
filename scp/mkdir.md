@@ -1,7 +1,7 @@
-rm -r folder = (deletes this folder and all the folders there )
+rm -r folder = (deletes this folder and all the folders there )              
 
-mkdir -p folder/{1..3}/{1..3} = (makes folders inside a folder )
-
+mkdir -p folder/{1..3}/{1..3} = (makes folders inside a folder )                        
+ls -l * = (shows folders and stuff within folders)                           
 
 ```
 !#/bin/bash     
