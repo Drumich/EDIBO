@@ -1,4 +1,4 @@
-[how to make a calculator =]](https://www.digitalocean.com/community/tutorials/how-to-make-a-simple-calculator-program-in-python-3)    
+[how to make a calculator ](https://www.digitalocean.com/community/tutorials/how-to-make-a-simple-calculator-program-in-python-3)    
 
 
 ```
