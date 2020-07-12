@@ -1,7 +1,7 @@
 ```
 n=int(input("Enter number of rows: "))  # n = cipars! Ievadiet rindu daudzumu
 a=[] # Empty list
-for i in range(n):   #
+for i in range(n):   # 
     a.append([])
     a[i].append(1)
     for j in range(1,i):
