@@ -1,12 +1,17 @@
 [Tatusmatrix EDIBO(good stuff)](https://github.com/tatusmatrix/EDIBO/tree/master/Day9_Day10) 		
 [HTML Basics](https://www.w3schools.com/html/default.asp)		
 [How to inspect your local network](https://medium.com/swlh/how-to-inspect-your-local-network-4187d7ae3b10)	
+[thingy](https://www.youtube.com/watch?v=C2vgICfQawE)     
+
+
 
 ssh 127.0.0.1           	  
 who = see who is connected to you               
 last = see history of people connected to you   
 scp user@ip adress:~/EDIBO/readme.md ./ #copies file to your directory          
 scp user@10.152.16.30:~/EDIBO ./      
+
+
 
 	Chapter Summary
 
