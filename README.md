@@ -1,3 +1,7 @@
+Homework : JS and HTML (HTML separate 1 html file into multiple)
+
+
+ 14. jābūt 13:00   
  15.16.17 jābūt 10:00 no rīta?      
  
  huilaiztaigila@g
