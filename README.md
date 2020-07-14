@@ -11,6 +11,7 @@ https://tsugi.sakai.lv/portal - must register here for projects and sharing...
 
 ifconfig = list ip adress and shit
 
+https://vaadin.com/
 
 [Formatting and writing](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax)       
 [Linux Ubuntu math](https://vitux.com/how-to-do-basic-math-in-linux-command-line/)  
