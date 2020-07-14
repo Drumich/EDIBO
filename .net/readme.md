@@ -3,7 +3,7 @@
 [How to inspect your local network](https://medium.com/swlh/how-to-inspect-your-local-network-4187d7ae3b10)	
 [thingy](https://www.youtube.com/watch?v=C2vgICfQawE)     
 
-
+https://www.tablesgenerator.com/html_tables#
 
 ssh 127.0.0.1           	  
 who = see who is connected to you               
