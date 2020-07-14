@@ -9,11 +9,8 @@ Homework : JS and HTML (HTML separate 1 html file into multiple)
 # EDIBO
 https://tsugi.sakai.lv/portal - must register here for projects and sharing...
 
+ifconfig = list ip adress and shit
 
-
-EDIBO projekta elektroniskā klade
-
-Mans pirmais ieraksts   
 
 [Formatting and writing](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax)       
 [Linux Ubuntu math](https://vitux.com/how-to-do-basic-math-in-linux-command-line/)  
