@@ -1,11 +1,8 @@
 class TodayDateComponent extends HTMLElement {
     constructor(){
         super();
-
-
         setInterval(() => {
             this.innerText=new Date();
-            
         }, 1000);     
     }
 } 
