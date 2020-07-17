@@ -1,4 +1,4 @@
-[My Homepage](https://github.com/Drumich/drumich.github.io.git)  
+[My Homepage](https://drumich.github.io/about.html)  
 
 
 Homework : JS and HTML (HTML separate 1 html file into multiple)
