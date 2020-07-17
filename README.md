@@ -1,4 +1,5 @@
-[My Homepage](https://drumich.github.io)  
+[My Homepage](https://drumich.github.io)   
+[Visual studio code EMMET](https://code.visualstudio.com/docs/editor/emmet)  
 
 
 Homework : JS and HTML (HTML separate 1 html file into multiple)
