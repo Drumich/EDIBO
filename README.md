@@ -1,6 +1,7 @@
 [My Homepage](https://drumich.github.io)   
 
-add google maps timeline history to webpage!  
+add rickroll to web
+JS basics console read
 
 
 [Visual studio code EMMET](https://code.visualstudio.com/docs/editor/emmet)  
