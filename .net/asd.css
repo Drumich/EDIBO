@@ -10,6 +10,7 @@
 
 .left-side{
 	display:flex;
+	float: right;
 
 }
 
