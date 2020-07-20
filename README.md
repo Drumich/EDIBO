@@ -2,7 +2,7 @@
 
 add rickroll to web
 JS basics console read
-
+[Python and other good stuff](https://github.com/vinta/awesome-python#readme)  
 
 [Visual studio code EMMET](https://code.visualstudio.com/docs/editor/emmet)  
 
