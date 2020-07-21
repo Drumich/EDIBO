@@ -6,6 +6,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MatSliderModule } from '@angular/material/slider';
 
+import { CurrencyModule } from './currency/currency.module';
+
 
 @NgModule({
   declarations: [
@@ -14,7 +16,8 @@ import { MatSliderModule } from '@angular/material/slider';
   imports: [
     MatSliderModule,
     BrowserModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    CurrencyModule
   ],
   providers: [],
   bootstrap: [AppComponent]
