@@ -1,1 +1,23 @@
-asdasd
+<h1>Laika zinas</h1>
+<h2>Datumi</h2>
+
+<table class="table table-border">
+  <thead>
+    <th>Datums</th>
+    <th>Temperature C</th>
+    <th>Temperature F</th>
+    <th>Summary</th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let Temperature of Temperatures">
+      <td>{{temperature.date}}</td>
+      <td>{{temperature.TemperatureC}</td>
+      <td>{{temperature.TemperatureF}}</td>
+      <td>{{temperature.Summary}}</td>
+    </tr>
+  </tbody>
+</table>
+
+<div>
+  {{Temperatures | json}}
+</div>
