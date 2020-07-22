@@ -1,5 +1,6 @@
 import turtle
 import time
+import random
 
 delay = 0.1
 
@@ -10,7 +11,7 @@ win.setup(width=600,height=600)
 win.tracer(0) # ??
 
 head = turtle.Turtle()
-head.speed(1)
+head.speed(0)
 head.shape("square")
 head.color("black")
 head.penup()
@@ -56,6 +57,21 @@ win.onkeypress(go_up, "w")
 win.onkeypress(go_down, "s")
 win.onkeypress(go_right, "d")
 win.onkeypress(go_left, "a")
+
+food = turtle.Turtle()
+food.color = ("red")
+food.shape = ("circle")
+food.penup()
+food.speed(0)
+food.goto(0,0)
+food.shapesize(0.50, 0.50)
+
+if head.distance(food) <= 15:
+    x = random.randint(-300,300)
+    y = random.randint(-300,300)
+    food.goto(x,y)
+
+
 
 while True:
     win.update()
