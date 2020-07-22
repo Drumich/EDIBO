@@ -1,4 +1,4 @@
-```
+
 import random
 import curses
 
@@ -59,4 +59,4 @@ else:
 
 w.addch(snake[0][0], snake[0][1], curses.ACS_CKBOARD)
 
-```
+
