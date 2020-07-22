@@ -1,21 +1,21 @@
 import turtle
 import time
 
-delay = 0.5
+delay = 0.1
 
 win = turtle.Screen()
-win.title("Sneaky Snake")
+win.title("Sneaky Snek")
 win.bgcolor("green")
 win.setup(width=600,height=600)
 win.tracer(0) # ??
 
 head = turtle.Turtle()
-head.speed(0)
+head.speed(1)
 head.shape("square")
 head.color("black")
 head.penup()
-head.goto(0,100)
-head.direction = "down"
+head.goto(0,0)
+head.direction = "stop"
 
 
 def move():
@@ -33,12 +33,6 @@ def move():
         head.setx(x + 20)
 
 
-while True:
-    win.update()
-    move()
-    time.sleep(delay)
-
-
 def go_up():
     if head.direction != "down":
         head.direction = "up"
@@ -47,21 +41,27 @@ def go_down():
     if head.direction != "up":
         head.direction = "down"
 
-def go_right():
-    if head.direction != "left":
-        head.direction = "right"
-
 def go_left():
     if head.direction != "right":
         head.direction = "left"
 
 
+def go_right():
+    if head.direction != "left":
+        head.direction = "right"
+
 
 win.listen()
-win.onkey(go_up, "w")
-win.onkey(go_down, "s")
-win.onkey(go_right, "d")
-win.onkey(go_left, "a")
+win.onkeypress(go_up, "w")
+win.onkeypress(go_down, "s")
+win.onkeypress(go_right, "d")
+win.onkeypress(go_left, "a")
+
+while True:
+    win.update()
+    move()
+    time.sleep(delay)
+
 
 
 
