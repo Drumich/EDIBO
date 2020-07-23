@@ -16,7 +16,7 @@ weapon2 = ""
 
 
 print("Welcome to our town , what is your name stranger? \n")
-
+### Class , idk what they do , so i'm not touching them...yet ###
 # class player:
 #     def __init__(self):
 name = input(str("Enter your name:\n "))
