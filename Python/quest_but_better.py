@@ -87,7 +87,7 @@ def cave():
                 health -= r
                 print(f"""
                 The Beast is dead!Congratulations!
-                You took {r} damage and have {health} {Fore.GREEN}health{Style.RESET_ALL} left.""")
+                You took {r} {Fore.RED}damage{Style.RESET_ALL} and have {health} {Fore.GREEN}health{Style.RESET_ALL} left.""")
 
 
 
@@ -111,5 +111,33 @@ if health <= 0:
 intro()
 forest()
 cave()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
