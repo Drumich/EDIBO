@@ -1,21 +1,32 @@
 import time
 import sys
 import random
+from colorama import Fore
+
+
+
+
+### Variables ###
 delay = 2
 hunger = 1
-print("Welcome to our town , what is your name stranger? ")
+health = 10
+weapon = "Rusty Sword"
+weapon2 = ""
+
+
+
+print("Welcome to our town , what is your name stranger? \n")
 
 # class player:
 #     def __init__(self):
-name = input(str("Enter your name: "))
-        # self.weapon = "Rusty Sword"
-        # self.weapon2 = ""
+name = input(str("Enter your name:\n "))
+
 
 
 def intro():
     print("Nice to meet you %s , our town has been under attack recently by mysterious creature , would you help us?" % name)
     #time.sleep(delay)
-    start = input(str("(y/n)"))
+    start = input(str("(y/n)\n"))
     if start == "y":
         print("Excellent, let me tell you more about the creature!")
         #time.sleep(delay)
@@ -24,6 +35,7 @@ def intro():
         print("Now follow me out of the town, %s" % name)
         #time.sleep(delay)
     else:
+        print("Maybe next time.")
         sys.exit()
     
 def forest():
@@ -31,11 +43,11 @@ def forest():
     print("Alright %s , the creature was last seen heading into the forest , i can't go with you , but take this rusty blade.Good Luck !" % name)
     #time.sleep(delay)
     print("You start walking into the forest , you hear rumbling.")
-    investigate = input("Do you want to investigate? (y/n)")
+    investigate = input("Do you want to investigate? (y/n)\n")
     if investigate == "y":
         print("You walk closer to the rumbling sounds.")
         #time.sleep(delay)
-        action = input("You see a rabbit , would you try and catch it? (y/n)")
+        action = input("You see a rabbit , would you try and catch it? (y/n)\n")
         if action == "y":
             print("You try to catch the rabbit.")
             #time.sleep(delay)
@@ -50,10 +62,39 @@ def forest():
         else:
             print("You ignore the rabbit,you are getting hungry.")
             hunger -= 1
+    else:
+        print("You decide not to investigate.")
     print(f"Your hunger is now : {hunger}" )
 
 
-#def cave():
+def cave():
+    global weapon
+    global hunger
+    global health
+    print("You see a cave entrance in the distance, it's getting dark and you should set up camp soon.")
+    entrance = input("Would you like to go inside the cave or stay outside (cave/outside)\n")
+    if entrance == "cave":
+        print("You enter the cave and look around.")
+        time.sleep(delay)
+        print("You see a pile of junk next to a couple of skulls, and hear growling!\n")
+        time.sleep(delay)
+        print("You see red eyes slowly creeping towards you! It's a frickin lion i guess")
+        whatdo = input("(fight/run): \n")
+        if whatdo == "fight":
+            print(f"You draw your {weapon} and start slashing furiously!")
+            for num in range(1):
+                r = random.randint(0,4)
+                health -= r
+                print(f"You took {r} damage and have {health} health left.")
+
+
+
+
+    #else:
+        #stay outside
+
+
+
 
 
 
@@ -61,9 +102,13 @@ if hunger <= 0:
     print("You died from hunger")
     sys.exit()
 
+if health <= 0:
+    print("You died!")
+    sys.exit()
+
 intro()
 forest()
-
+cave()
 
 
 
