@@ -37,7 +37,7 @@ def forest():
         action = input("You see a rabbit , would you try and catch it? (y/n)")
         if action == "y":
             print("You try to catch the rabbit.")
-            for num in random.randint(1,11):
+            for num in range(random.randint(1,11)):
                 if num >= 5:
                     print("You caught the rabbit.")
                 else:
