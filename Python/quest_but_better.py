@@ -10,23 +10,24 @@ print("Welcome to our town , what is your name stranger? ")
 name = input(str("Enter your name: "))
         # self.weapon = "Rusty Sword"
         # self.weapon2 = ""
-        # self.hunger= 0
+
 
 def intro():
     print("Nice to meet you %s , our town has been under attack recently by mysterious creature , would you help us?" % name)
-    # time.sleep(delay)
-    # start = input(str("(y/n)"))
-    # if start == "y":
-    #     print("Excellent, let me tell you more about the creature!")
-    #     time.sleep(delay)
-    #     print("The creature has been described as big,black,massive claws and teeth ,red eyed like...creature")
-    #     time.sleep(delay)
-    #     print("Now follow me out of the town, %s" % name)
-    #     time.sleep(delay)
-    # else:
-    #     sys.exit()
+    #time.sleep(delay)
+    start = input(str("(y/n)"))
+    if start == "y":
+        print("Excellent, let me tell you more about the creature!")
+        #time.sleep(delay)
+        print("The creature has been described as big,black,massive claws and teeth ,red eyed like...creature")
+        #time.sleep(delay)
+        print("Now follow me out of the town, %s" % name)
+        #time.sleep(delay)
+    else:
+        sys.exit()
     
 def forest():
+    hunger = 5
     print("Alright %s , the creature was last seen heading into the forest , i can't go with you , but take this rusty blade.Good Luck !" % name)
     #time.sleep(delay)
     print("You start walking into the forest , you hear rumbling.")
@@ -41,15 +42,18 @@ def forest():
             for num in range(1):
                 r = random.randint(1,11)
                 if r >= 5:
-                    print("You caught the rabbit.")
+                    print("You caught the rabbit, you won't go hungry tonight.")
+                    hunger += 3
                 else:
-                    print("You fail to catch the rabbit , it was too quick.")
+                    print("You fail to catch the rabbit , it was too quick ,you are getting hungry.")
+                    hunger -= 1
         else:
-            print("You ignore the rabbit.")
+            print("You ignore the rabbit,you are getting hungry.")
+            hunger -= 1
+    print("Your hunger is now : " + str(hunger))
 
 
-
-
+#def cave():
 
 
 
