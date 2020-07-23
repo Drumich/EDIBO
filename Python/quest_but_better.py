@@ -2,7 +2,7 @@ import time
 import sys
 import random
 delay = 2
-
+hunger = 1
 print("Welcome to our town , what is your name stranger? ")
 
 # class player:
@@ -27,7 +27,7 @@ def intro():
         sys.exit()
     
 def forest():
-    hunger = 5
+    global hunger
     print("Alright %s , the creature was last seen heading into the forest , i can't go with you , but take this rusty blade.Good Luck !" % name)
     #time.sleep(delay)
     print("You start walking into the forest , you hear rumbling.")
@@ -50,13 +50,16 @@ def forest():
         else:
             print("You ignore the rabbit,you are getting hungry.")
             hunger -= 1
-    print("Your hunger is now : " + str(hunger))
+    print(f"Your hunger is now : {hunger}" )
 
 
 #def cave():
 
 
 
+if hunger <= 0:
+    print("You died from hunger")
+    sys.exit()
 
 intro()
 forest()
