@@ -2,7 +2,7 @@ import time
 import sys
 import random
 from colorama import Fore
-
+from colorama import Style
 
 
 
@@ -75,17 +75,19 @@ def cave():
     entrance = input("Would you like to go inside the cave or stay outside (cave/outside)\n")
     if entrance == "cave":
         print("You enter the cave and look around.")
-        time.sleep(delay)
-        print("You see a pile of junk next to a couple of skulls, and hear growling!\n")
-        time.sleep(delay)
+        #time.sleep(delay)
+        print("You see a pile of junk next to a couple of skulls, YOU HEAR GROWLING!!!\n")
+        #time.sleep(delay)
         print("You see red eyes slowly creeping towards you! It's a frickin lion i guess")
         whatdo = input("(fight/run): \n")
         if whatdo == "fight":
             print(f"You draw your {weapon} and start slashing furiously!")
             for num in range(1):
-                r = random.randint(0,4)
+                r = random.randint(1,4)
                 health -= r
-                print(f"You took {r} damage and have {health} health left.")
+                print(f"""
+                The Beast is dead!Congratulations!
+                You took {r} damage and have {health} {Fore.GREEN}health{Style.RESET_ALL} left.""")
 
 
 
@@ -109,33 +111,5 @@ if health <= 0:
 intro()
 forest()
 cave()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
