@@ -1,3 +1,5 @@
+### All delays are removed for testing purposes :D ###
+
 import time
 import sys
 import random
