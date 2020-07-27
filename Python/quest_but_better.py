@@ -97,7 +97,7 @@ def cave():
                 The Beast is dead!Congratulations!
                 You took {r} {Fore.RED}damage{Style.RESET_ALL} 
                 and have {health} {Fore.GREEN}health{Style.RESET_ALL} left.""")
-                time.sleep(delay)
+                #time.sleep(delay)
                 weapon = "Iron Sword"
                 weapon2 = "Bow"
                 hunger += 5
@@ -122,10 +122,15 @@ def cave():
                     # need an if statement for health
                 #print(f"You look around the cave and find an {weapon} and a {weapon2} with some arrows...Nice.")
                 #print("You decide to stay in the cave for the night and cook some lion meat.Delicious!")
+            else:
+                print("You set a camp outside")
+                ##time.sleep(delay)
+                print(f"You died.There was a {Fore.RED}frickin lion{Style.RESET_ALL} in the cave and it visited you while you were sleeping.")
+                sys.exit()
     else:
         print("You set a camp outside")
-        time.sleep(delay)
-        print("You died.There was a frickin lion in the cave and it visited you while you were sleeping.")
+        ##time.sleep(delay)
+        print(f"You died.There was a {Fore.RED}frickin lion{Style.RESET_ALL} in the cave and it visited you while you were sleeping.")
         sys.exit()
 
 
