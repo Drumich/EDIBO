@@ -1,5 +1,7 @@
 %history -f a.txt   (saves ipythons current sessions history)   
 
+[Pygame Book](https://inventwithpython.com/makinggames.pdf)   
+
 [!!!Python problem solutions!!!](https://www.sanfoundry.com/python-problems-solutions/)       
 
 [python challenges](https://www.hackerrank.com/)          
