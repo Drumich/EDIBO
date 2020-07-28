@@ -46,14 +46,13 @@ while run:
     else:
         if jumpCount >= -10:
             neg = 1
-            if jumpCount < 0:
-                neg -= -1
-            y -= (jumpCount ** 2) / 2 * neg
+            if jumpCount <= 0:
+                neg = -1
+            y -= (jumpCount ** 2) * 0.5 * neg
             jumpCount -= 1
         else:
             isJump = False
             jumpCount = 10
-
 
     win.fill((0,0,0))
     pygame.draw.rect(win , (0,255,255) , (x, y, width, height))
