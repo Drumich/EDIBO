@@ -2,7 +2,7 @@ make database and show it through angular
 
 
 WHEN CONNECTED THROUGH SSH >
-mysql -u user -p  <     
+mysql -u user -p  < aA1!...          
     
 ------------------------------------------------------------------  
 CREATE TABLE ediboKG5(id INT PRIMARY KEY AUTO_INCREMENT,name VARCHAR(20),lastname VARCHAR(20),age INT NOT NULL DEFAULT 420,date DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP);                     
