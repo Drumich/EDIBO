@@ -1,8 +1,8 @@
 make database and show it through angular       
 
 
-ssh 
-mysql -u user -p  
+WHEN CONNECTED THROUGH SSH >
+mysql -u user -p  <     
     
 ------------------------------------------------------------------  
 CREATE TABLE ediboKG5(id INT PRIMARY KEY AUTO_INCREMENT,name VARCHAR(20),lastname VARCHAR(20),age INT NOT NULL DEFAULT 420,date DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP);                     
