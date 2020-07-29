@@ -13,7 +13,9 @@ show grants; - shows what you can do
 use databasename; - switches to database    
 show tables; - shows tables     
 describe tablename; - shows details about this table    
-ALTER TABLE ediboKG ADD age INT NOT NULL; - add a column to a table           
+ALTER TABLE ediboKG ADD age INT NOT NULL; - add a column to a table             
+SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE table_name = "ediboKG5";                    
+
 =------------------------------------------------------------------
 
 
