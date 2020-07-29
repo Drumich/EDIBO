@@ -8,6 +8,7 @@ use databasename; - switches to database
 show tables; - shows tables     
 describe tablename; - shows details about this table    
 ALTER TABLE ediboKG ADD age INT NOT NULL; - add a column to a table        
+INSERT INTO ediboKG VALUES ("K", "G");      
 
 
 
