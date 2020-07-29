@@ -20,6 +20,9 @@ use databasename; - switches to database
 show grants; - shows what you can do              
 show tables; - shows tables             
 describe tablename; - shows details about this table        
+delimiter $$ - idk..        
+
+
 
 ------------------------------------------------------------------    
 !if column doesn't allow nulls and you don't enter a value,then column uses DEFAULT values provided!            
