@@ -6,20 +6,17 @@ JS basics console read
 
 [Visual studio code EMMET](https://code.visualstudio.com/docs/editor/emmet)  
 
-
-Homework : JS and HTML (HTML separate 1 html file into multiple)
-
-
- 14. jābūt 13:00   
- 15.16.17 jābūt 10:00 no rīta?      
  
  huilaiztaigila@g
 
 # EDIBO
 https://tsugi.sakai.lv/portal - must register here for projects and sharing...
-
+```
 ifconfig = list ip adress and shit
+scp user@10.152.16.200:~/.mysql_history ./mysql_history_29_07 - copies a file from local computer.
 
+ps aux
+```
 https://vaadin.com/
 
 [Formatting and writing](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax)       
