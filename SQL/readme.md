@@ -1,7 +1,8 @@
 make database and show it through angular   
 
 
-create table mana_tabula1(lauks1 smallint, lauks2 varchar(5));       
+CREATE TABLE ediboKG2(name VARCHAR(20),lastname VARCHAR(20), age INT NOT NULL DEFAULT 69);      
+    
 
 show grants; - shows what you can do        
 use databasename; - switches to database    
