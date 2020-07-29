@@ -35,6 +35,6 @@ ALTER TABLE ediboKG ADD age INT NOT NULL; - add a column to a table
 
 
 
-select * from INFORMATION_SCHETA.TABLES WHERE table_name = "tabula"; - shows !options! what you can do with table and stuff    
+select * from INFORMATION_SCHEMA.TABLES WHERE table_name = "tabula"; - shows !options! what you can do with table and stuff    
 SELECT CREATE_TIME FROM INFORMATION_SCHEMA.TABLES WHERE table_name = "mana_tabula1"; - shows what time table was created and stuff     
 
