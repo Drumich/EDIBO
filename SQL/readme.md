@@ -1,5 +1,10 @@
 make database and show it through angular       
 
+
+ssh 
+mysql -u user -p  
+    
+------------------------------------------------------------------  
 CREATE TABLE ediboKG5(id INT PRIMARY KEY AUTO_INCREMENT,name VARCHAR(20),lastname VARCHAR(20),age INT NOT NULL DEFAULT 420,date DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP);                     
 ALTER TABLE ediboKG ADD age INT NOT NULL; - add a column to a table                             
                    
@@ -17,7 +22,7 @@ show tables; - shows tables
 describe tablename; - shows details about this table        
 
 ------------------------------------------------------------------    
-!if column doesnt allow nulls and you dont enter a value,then column uses DEFAULT values provided!            
+!if column doesn't allow nulls and you don't enter a value,then column uses DEFAULT values provided!            
 example CREATE TABLE asd(date DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP);     
 
 
