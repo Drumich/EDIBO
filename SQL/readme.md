@@ -1,7 +1,7 @@
-make database and show it through angular   
+make database and show it through angular       
 
-CREATE TABLE ediboKG3(name VARCHAR(20),lastname VARCHAR(20),age INT NOT NULL DEFAULT 69,date DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP);
-INSERT INTO ediboKG3(name,lastname,age,date) VALUES("Kriss","G",69,now());
+CREATE TABLE ediboKG3(name VARCHAR(20),lastname VARCHAR(20),age INT NOT NULL DEFAULT 69,date DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP);          
+INSERT INTO ediboKG3(name,lastname,age,date) VALUES("Kriss","G",69,now());          
     
 
 show grants; - shows what you can do        
