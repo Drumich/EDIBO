@@ -16,6 +16,7 @@ select name as Vards,age as Vecums,date as Datums from ediboKG3 WHERE name = "Kr
 
     
 ------------------------------------------------------------------    
+show database/s     
 use databasename; - switches to database          
 show grants; - shows what you can do              
 show tables; - shows tables             
