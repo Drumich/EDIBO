@@ -7,9 +7,8 @@ show grants; - shows what you can do
 use databasename; - switches to database    
 show tables; - shows tables     
 describe tablename; - shows details about this table    
-ALTER TABLE ediboKG ADD age INT NOT NULL; - add a column to a table        
-INSERT INTO ediboKG VALUES ("K", "G");      
-
+ALTER TABLE ediboKG ADD age INT NOT NULL; - add a column to a table           
+INSERT INTO ediboKG(name , lastname , age) VALUES ("Kriss", "G" , 69);    
 
 
 
