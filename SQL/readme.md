@@ -16,7 +16,7 @@ describe tablename; - shows details about this table
 ALTER TABLE ediboKG ADD age INT NOT NULL; - add a column to a table             
 SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE table_name = "ediboKG5";                    
 
-=------------------------------------------------------------------
+------------------------------------------------------------------
 !if column doesnt allow nulls and you dont enter a value,then column uses DEFAULT values provided!            
 example CREATE TABLE asd(date DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP);     
 
