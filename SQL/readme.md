@@ -10,7 +10,7 @@ mysql -u user -p  < aA1!...
       
   
       
-- UPDATE edibo SET location = "USA" WHERE name = "Donald"   - updates tables location for Donald    
+- UPDATE edibo SET location = "USA",name = "Donny"  WHERE name = "Donald"   - updates tables location for Donald    
 - ALTER TABLE edibo MODIFY location VARCHAR(20) NOT NULL DEFAULT "Riga";      
 
 
