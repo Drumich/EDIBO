@@ -5,8 +5,8 @@ WHEN CONNECTED THROUGH SSH >
 mysql -u user -p  < aA1!...          
     
 ------------------------------------------------------------------  
-CREATE TABLE ediboKG5(id INT PRIMARY KEY AUTO_INCREMENT,name VARCHAR(20),lastname VARCHAR(20),age INT NOT NULL DEFAULT 420,date DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP);                     
-ALTER TABLE ediboKG ADD age INT NOT NULL; - add a column to a table                             
+-CREATE TABLE ediboKG5(id INT PRIMARY KEY AUTO_INCREMENT,name VARCHAR(20),lastname VARCHAR(20),age INT NOT NULL DEFAULT 420,date DATETIME NOT NULL DEFAULT -CURRENT_TIMESTAMP);                     
+-ALTER TABLE ediboKG ADD age INT NOT NULL; - add a column to a table                             
       
   
       
@@ -14,10 +14,10 @@ ALTER TABLE ediboKG ADD age INT NOT NULL; - add a column to a table
 - ALTER TABLE edibo MODIFY location VARCHAR(20) NOT NULL DEFAULT "Riga";      
 
 
-INSERT INTO ediboKG3(name,lastname,age,date) VALUES("Kriss","G",69,now());          
-SELECT DATE_FORMAT(date, "%d/%m/%Y") FROM ediboKG3;         
-SELECT age as "kaut kads numurs",date as datums FROM ediboKG3;  
-select name as Vards,age as Vecums,date as Datums from ediboKG3 WHERE name = "Kriss";
+-INSERT INTO ediboKG3(name,lastname,age,date) VALUES("Kriss","G",69,now());          
+-SELECT DATE_FORMAT(date, "%d/%m/%Y") FROM ediboKG3;         
+-SELECT age as "kaut kads numurs",date as datums FROM ediboKG3;  
+-select name as Vards,age as Vecums,date as Datums from ediboKG3 WHERE name = "Kriss";
 
     
 ------------------------------------------------------------------    
