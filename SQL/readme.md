@@ -10,7 +10,8 @@ ALTER TABLE ediboKG ADD age INT NOT NULL; - add a column to a table
       
  -     
       
-UPDATE edibo SET location = "USA" WHERE name = "Donald"   - updates tables location for Donald          
+UPDATE edibo SET location = "USA" WHERE name = "Donald"   - updates tables location for Donald    
+ALTER TABLE edibo MODIFY location VARCHAR(20) NOT NULL DEFAULT "Riga";      
 
 -
 INSERT INTO ediboKG3(name,lastname,age,date) VALUES("Kriss","G",69,now());          
