@@ -59,3 +59,27 @@ example CREATE TABLE asd(date DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP);
 select * from INFORMATION_SCHEMA.TABLES WHERE table_name = "tabula"; - shows !options! what you can do with table and stuff    
 SELECT CREATE_TIME FROM INFORMATION_SCHEMA.TABLES WHERE table_name = "mana_tabula1"; - shows what time table was created and stuff     
 
+
+```
+DELIMITER $$
+
+CREATE FUNCTION ManaFunkcija ( solis INT )
+RETURNS INT
+
+BEGIN
+	DECLARE lielums INT;
+    
+    SET lielums = 0;
+    
+    label1: WHILE lielums <= 50 DO
+		SET lielums = lielums + solis;
+	END WHILE label1;
+    
+    RETURN lielums;
+    
+END; $$
+
+DELIMITER ;
+
+SELECT ManaFunkcija(3);
+```
