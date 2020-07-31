@@ -1,3 +1,7 @@
+5 pages of presentation for Tuesday about what i learned and stuff.  
+
+
+
 [My Homepage](https://drumich.github.io)   
 
 add rickroll to web
