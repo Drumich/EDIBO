@@ -5,17 +5,29 @@ pygame.init()
 
 win = pygame.display.set_mode((1280,720))
 
+#####################
+fences = (
+    pygame.Rect(200,1200,300,200)
+    )
+
+        # if moved.collidelist(fences) == -1 and rect.contains(moved):
+        #     moved = char.move(movement.x, movement.y)
+
+######################
+
+
+
 pygame.display.set_caption("Hello")
 
 x = 50
 y = 550
 height = 50
 width = 50
-vel = 5
+vel = 20
 
 bg = pygame.image.load("a.jpg")
 
-screen = 500
+screen = 1280
 
 isJump = False
 jumpCount = 10
