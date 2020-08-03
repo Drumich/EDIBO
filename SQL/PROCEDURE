@@ -4,8 +4,7 @@ BEGIN INSERT INTO edibo(name) VALUES (p_name);
 END
 
 
+CREATE DEFINER=`u17`@`%` PROCEDURE `addmoar`(IN p_name VARCHAR(20), p_lastname VARCHAR(20), p_age INT, p_location VARCHAR(20))
+BEGIN INSERT INTO edibo(name,lastname,age,location) VALUES (p_name,p_lastname,p_age,p_location);
 
-Create PROCEDURE insert_studentinfo(IN p_id int, IN p_name varchar(20),IN p_Address Varchar(20), IN p_subject Varchar(20))    
-BEGIN     
-insert into student_info(id, name, address, subject) values (p_id, p_name,p_address, p_subject);    
-END //    
+END
