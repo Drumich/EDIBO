@@ -1,0 +1,9 @@
+
+DELIMITER $$
+CREATE TRIGGER aizsargs BEFORE INSERT ON edibo
+FOR EACH ROW
+BEGIN IF NEW.name='abcd' THEN
+SIGNAL SQLSTATE '50000' SET message_text = "lalallalalalala error" ;
+END IF ;
+END $$
+DELIMITER ;
