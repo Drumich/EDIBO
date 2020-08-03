@@ -2,3 +2,10 @@ CREATE DEFINER=`u17`@`%` PROCEDURE `add1`(IN p_name VARCHAR(20))
 BEGIN INSERT INTO edibo(name) VALUES (p_name);
 
 END
+
+
+
+Create PROCEDURE insert_studentinfo(IN p_id int, IN p_name varchar(20),IN p_Address Varchar(20), IN p_subject Varchar(20))    
+BEGIN     
+insert into student_info(id, name, address, subject) values (p_id, p_name,p_address, p_subject);    
+END //    
