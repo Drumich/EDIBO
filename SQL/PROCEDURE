@@ -1,0 +1,6 @@
+CREATE DEFINER=`u17`@`%` PROCEDURE `add1`(IN name VARCHAR)
+BEGIN INSERT INTO edibo(name) VALUES (name);
+
+END     
+
+need to fix this
