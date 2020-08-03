@@ -8,3 +8,6 @@ CREATE DEFINER=`u17`@`%` PROCEDURE `addmoar`(IN p_name VARCHAR(20), p_lastname V
 BEGIN INSERT INTO edibo(name,lastname,age,location) VALUES (p_name,p_lastname,p_age,p_location);
 
 END
+
+
+CALL addmoar("Janka","Buhanka",5,"Ģerevņa");
