@@ -83,3 +83,16 @@ DELIMITER ;
 
 SELECT ManaFunkcija(3);
 ```
+```
+use db17;
+DELIMITER $$
+CREATE PROCEDURE FindStuff()
+BEGIN SELECT * FROM edibo;
+END $$
+
+DELIMITER ;
+
+
+
+CALL FindStuff()
+```
